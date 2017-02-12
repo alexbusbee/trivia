@@ -1,8 +1,6 @@
-<!--
-  Generated template for the TriviaBlock component.
+<p>{{ question }}</p>
 
-  See https://angular.io/docs/ts/latest/api/core/index/ComponentMetadata-class.html
-  for more info on Angular 2 Components.
--->
-
-{{text}}
+<button class="correct" (click)="correctAnswer()">{{ correct }}</button>
+<button class="wrongOne" (click)="wrongAnswer()">{{ wrongOne }}</button>
+<button class="wrongTwo" (click)="wrongAnswer()">{{ wrongTwo }}</button>
+<button class="wrongThree" (click)="wrongAnswer()">{{ wrongThree }}</button>

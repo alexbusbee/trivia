@@ -16,7 +16,7 @@ export class USCapitalsPage {
 
   ngOnInit() {
     let confirm = this.alertCtrl.create({
-      title: 'Ready?',
+      title: 'U.S. Capitals',
       message: 'You have 60 seconds to answer as many questions as you can.',
       buttons: [
         {
