@@ -4,12 +4,12 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class TriviaService {
-    constructor(private http: Http) {
+    constructor(private _http: Http) {
 
     }
-
-  getTrivia(fileName: string) {
-    return this.http.request('../../server/questions/' + fileName + '.json')
-        .map(res => res.json());
-  }
+/* TODO: Fix JSON path */
+    getTrivia(fileName: string) {
+        return this._http.get('./#/server/questions/' + fileName + '.json')
+            .map(res => res.json());
+    }
 }

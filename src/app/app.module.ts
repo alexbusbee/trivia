@@ -8,7 +8,9 @@ import { WorldCapitalsPage } from '../pages/world-capitals/world-capitals';
 
 import { ScoreComponent } from '../components/score/score';
 import { TimerComponent } from '../components/timer/timer';
-import { TriviaBlockComponent } from '../components/trivia-block/trivia-block';
+import { TriviaComponent } from '../components/trivia/trivia.component';
+
+import { TriviaService } from '../services/trivia.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,7 @@ import { TriviaBlockComponent } from '../components/trivia-block/trivia-block';
     WorldCapitalsPage,
     ScoreComponent,
     TimerComponent,
-    TriviaBlockComponent
+    TriviaComponent
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -31,8 +33,8 @@ import { TriviaBlockComponent } from '../components/trivia-block/trivia-block';
     WorldCapitalsPage,
     ScoreComponent,
     TimerComponent,
-    TriviaBlockComponent
+    TriviaComponent
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, TriviaService]
 })
 export class AppModule {}

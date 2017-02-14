@@ -6,7 +6,6 @@ import { Component, Injectable } from '@angular/core';
 })
 export class ScoreComponent {
   score: number = 0;
-  triviaBlocks: 
 
   constructor() {
     console.log('Hello Score Component');

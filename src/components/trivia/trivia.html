@@ -1,7 +1,9 @@
-<div *ngFor="let question of questions | async">
-    <p>{{ question.question }}</p>
-        <button class="correct" (click)="answer(correct)">{{ question.correct }}</button>
-        <button class="wrongOne" (click)="answer(wrong)">{{ question.wrongOne }}</button>
-        <button class="wrongTwo" (click)="answer(wrong)">{{ question.wrongTwo }}</button>
-        <button class="wrongThree" (click)="answer(wrong)">{{ question.wrongThree }}</button>
+<div *ngFor="let question of questions | async; let i = index">
+    <div *ngIf="i < 11">
+        <p>{{ question.question }}</p>
+            <button class="correct" (click)="answer(correct)">{{ question.correct }}</button>
+            <button class="wrongOne" (click)="answer(wrong)">{{ question.wrongOne }}</button>
+            <button class="wrongTwo" (click)="answer(wrong)">{{ question.wrongTwo }}</button>
+            <button class="wrongThree" (click)="answer(wrong)">{{ question.wrongThree }}</button>
+    </div>
 </div>
