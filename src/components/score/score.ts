@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 
 @Component({
   selector: 'score',
@@ -6,12 +6,15 @@ import { Component } from '@angular/core';
 })
 export class ScoreComponent {
   score: number = 0;
+  triviaBlocks: 
 
   constructor() {
     console.log('Hello Score Component');
   }
 
-  increaseScore() {
-    this.score += 1; 
+  onAnswered(correctAnswer: boolean) {
+    if (correctAnswer = true) {
+      this.score += 1; 
+    }
   }
 }
