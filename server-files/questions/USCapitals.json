@@ -1,356 +1,356 @@
 [
   {
-    "question": "What is the capital of Alabama?",
+    "question": "The capital of Alabama",
     "correct": "Montgomery",
     "wrongOne": "Birmingham",
     "wrongTwo": "Mobile",
     "wrongThree": "Huntsville"
   },
   {
-    "question": "What is the capital of Alaska?",
+    "question": "The capital of Alaska",
     "correct": "Juneau",
     "wrongOne": "Anchorage",
     "wrongTwo": "Fairbanks",
     "wrongThree": "Sitka"
   },
   {
-    "question": "What is the capital of Arkansas?",
+    "question": "The capital of Arkansas",
     "correct": "Phoenix",
     "wrongOne": "Tucson",
     "wrongTwo": "Mesa",
     "wrongThree": "Glendale"
   },
   {
-    "question": "What is the capital of Alabama?",
+    "question": "The capital of Alabama",
     "correct": "Little Rock",
     "wrongOne": "Fort Smith",
     "wrongTwo": "Fayetteville",
     "wrongThree": "Springdale"
   },
   {
-    "question": "What is the capital of California?",
+    "question": "The capital of California",
     "correct": "Sacramento",
     "wrongOne": "San Diego",
     "wrongTwo": "Los Angeles",
     "wrongThree": "San Francisco"
   },
   {
-    "question": "What is the capital of Colorado?",
+    "question": "The capital of Colorado",
     "correct": "Denver",
     "wrongOne": "Colorado Springs",
     "wrongTwo": "Aurora",
     "wrongThree": "Fort Collins"
   },
   {
-    "question": "What is the capital of Connecticut?",
+    "question": "The capital of Connecticut",
     "correct": "Hartford",
     "wrongOne": "New Haven",
     "wrongTwo": "Stamford",
     "wrongThree": "Bridgeport"
   },
   {
-    "question": "What is the capital of Delaware?",
+    "question": "The capital of Delaware",
     "correct": "Dover",
     "wrongOne": "Wilmington",
     "wrongTwo": "Newark",
     "wrongThree": "Middletown"
   },
   {
-    "question": "What is the capital of Florida?",
+    "question": "The capital of Florida",
     "correct": "Tallahassee",
     "wrongOne": "Miami",
     "wrongTwo": "Jacksonville",
     "wrongThree": "Orlando"
   },
   {
-    "question": "What is the capital of Georgia?",
+    "question": "The capital of Georgia",
     "correct": "Atlanta",
     "wrongOne": "Columbus",
     "wrongTwo": "Augusta",
     "wrongThree": "Savannah"
   },
   {
-    "question": "What is the capital of Hawaii?",
+    "question": "The capital of Hawaii",
     "correct": "Honolulu",
     "wrongOne": "Hilo",
     "wrongTwo": "Kailua",
     "wrongThree": "Kapolei"
   },
   {
-    "question": "What is the capital of Idaho?",
+    "question": "The capital of Idaho",
     "correct": "Boise",
     "wrongOne": "Nampa",
     "wrongTwo": "Meridian",
     "wrongThree": "Idaho Falls"
   },
   {
-    "question": "What is the capital of Illinois?",
+    "question": "The capital of Illinois",
     "correct": "Springfield",
     "wrongOne": "Aurora",
     "wrongTwo": "Rockford",
     "wrongThree": "Chicago"
   },
   {
-    "question": "What is the capital of Indiana?",
+    "question": "The capital of Indiana",
     "correct": "Indianapolis",
     "wrongOne": "Fort Wayne",
     "wrongTwo": "Evansville",
     "wrongThree": "Gary"
   },
   {
-    "question": "What is the capital of Iowa?",
+    "question": "The capital of Iowa",
     "correct": "Des Moines",
     "wrongOne": "Cedar Rapids",
     "wrongTwo": "Davenport",
     "wrongThree": "Sioux City"
   },
   {
-    "question": "What is the capital of Kansas?",
+    "question": "The capital of Kansas",
     "correct": "Topeka",
     "wrongOne": "Overland Park",
     "wrongTwo": "Kansas City",
     "wrongThree": "Wichita"
   },
   {
-    "question": "What is the capital of Kentucky?",
+    "question": "The capital of Kentucky",
     "correct": "Frankfort",
     "wrongOne": "Lexington",
     "wrongTwo": "Bowling Green",
     "wrongThree": "Louisville"
   },
   {
-    "question": "What is the capital of Louisiana?",
+    "question": "The capital of Louisiana",
     "correct": "Baton Rouge",
     "wrongOne": "New Orleans",
     "wrongTwo": "Shreveport",
     "wrongThree": "Lafayette"
   },
   {
-    "question": "What is the capital of Maine?",
+    "question": "The capital of Maine",
     "correct": "Augusta",
     "wrongOne": "Lewiston",
     "wrongTwo": "Bangor",
     "wrongThree": "Portland"
   },
   {
-    "question": "What is the capital of Maryland?",
+    "question": "The capital of Maryland",
     "correct": "Annapolis",
     "wrongOne": "Columbia",
     "wrongTwo": "Baltimore",
     "wrongThree": "Silver Spring"
   },
   {
-    "question": "What is the capital of Massachusetts?",
+    "question": "The capital of Massachusetts",
     "correct": "Boston",
     "wrongOne": "Worcester",
     "wrongTwo": "Springfield",
     "wrongThree": "Cambridge"
   },
   {
-    "question": "What is the capital of Michigan?",
+    "question": "The capital of Michigan",
     "correct": "Lansing",
     "wrongOne": "Grand Rapids",
     "wrongTwo": "Detroit",
     "wrongThree": "Ann Arbor"
   },
   {
-    "question": "What is the capital of Minnesota?",
+    "question": "The capital of Minnesota",
     "correct": "Saint Paul",
     "wrongOne": "Minneapolis",
     "wrongTwo": "Rochester",
     "wrongThree": "Bloomington"
   },
   {
-    "question": "What is the capital of Mississippi?",
+    "question": "The capital of Mississippi",
     "correct": "Jackson",
     "wrongOne": "Gulfport",
     "wrongTwo": "Southaven",
     "wrongThree": "Biloxi"
   },
   {
-    "question": "What is the capital of Missouri?",
+    "question": "The capital of Missouri",
     "correct": "Jefferson City",
     "wrongOne": "Saint Louis",
     "wrongTwo": "Springfield",
     "wrongThree": "Kansas City"
   },
   {
-    "question": "What is the capital of Montana?",
+    "question": "The capital of Montana",
     "correct": "Helena",
     "wrongOne": "Missoula",
     "wrongTwo": "Great Falls",
     "wrongThree": "Billings"
   },
   {
-    "question": "What is the capital of Nebraska?",
+    "question": "The capital of Nebraska",
     "correct": "Lincoln",
     "wrongOne": "Omaha",
     "wrongTwo": "Bellevue",
     "wrongThree": "Grand Island"
   },
   {
-    "question": "What is the capital of Nevada?",
+    "question": "The capital of Nevada",
     "correct": "Carson City",
     "wrongOne": "Henderson",
     "wrongTwo": "Reno",
     "wrongThree": "Las Vegas"
   },
   {
-    "question": "What is the capital of New Hampshire?",
+    "question": "The capital of New Hampshire",
     "correct": "Concord",
     "wrongOne": "Nashua",
     "wrongTwo": "Manchester",
     "wrongThree": "Rochester"
   },
   {
-    "question": "What is the capital of New Jersey?",
+    "question": "The capital of New Jersey",
     "correct": "Trenton",
     "wrongOne": "Jersey City",
     "wrongTwo": "Newark",
     "wrongThree": "Paterson"
   },
   {
-    "question": "What is the capital of New Mexico?",
+    "question": "The capital of New Mexico",
     "correct": "Santa Fe",
     "wrongOne": "Las Cruces",
     "wrongTwo": "Rio Rancho",
     "wrongThree": "Albuquerque"
   },
   {
-    "question": "What is the capital of New York?",
+    "question": "The capital of New York",
     "correct": "Albany",
     "wrongOne": "Buffalo",
     "wrongTwo": "Rochester",
     "wrongThree": "New York City"
   },
   {
-    "question": "What is the capital of North Carolina?",
+    "question": "The capital of North Carolina",
     "correct": "Raleigh",
     "wrongOne": "Charlotte",
     "wrongTwo": "Greensboro",
     "wrongThree": "Durham"
   },
   {
-    "question": "What is the capital of North Dakota?",
+    "question": "The capital of North Dakota",
     "correct": "Bismarck",
     "wrongOne": "Fargo",
     "wrongTwo": "Grand Forks",
     "wrongThree": "Minot"
   },
   {
-    "question": "What is the capital of Ohio?",
+    "question": "The capital of Ohio",
     "correct": "Columbus",
     "wrongOne": "Cleveland",
     "wrongTwo": "Cincinnati",
     "wrongThree": "Toledo"
   },
   {
-    "question": "What is the capital of Oklahoma?",
+    "question": "The capital of Oklahoma",
     "correct": "Oklahoma City",
     "wrongOne": "Tulsa",
     "wrongTwo": "Norman",
     "wrongThree": "Broken Arrow"
   },
   {
-    "question": "What is the capital of Oregon?",
+    "question": "The capital of Oregon",
     "correct": "Salem",
     "wrongOne": "Portland",
     "wrongTwo": "Eugene",
     "wrongThree": "Gresham"
   },
   {
-    "question": "What is the capital of Pennsylvania?",
+    "question": "The capital of Pennsylvania",
     "correct": "Harrisburg",
     "wrongOne": "Pittsburgh",
     "wrongTwo": "Allentown",
     "wrongThree": "Philadelphia"
   },
   {
-    "question": "What is the capital of Rhode Island?",
+    "question": "The capital of Rhode Island",
     "correct": "Providence",
     "wrongOne": "Warwick",
     "wrongTwo": "Cranston",
     "wrongThree": "Pawtucket"
   },
   {
-    "question": "What is the capital of South Carolina?",
+    "question": "The capital of South Carolina",
     "correct": "Columbia",
     "wrongOne": "Charleston",
     "wrongTwo": "North Charleston",
     "wrongThree": "Mount Pleasant"
   },
   {
-    "question": "What is the capital of South Dakota?",
+    "question": "The capital of South Dakota",
     "correct": "Pierre",
     "wrongOne": "Rapid City",
     "wrongTwo": "Aberdeen",
     "wrongThree": "Sioux Falls"
   },
   {
-    "question": "What is the capital of Tennessee?",
+    "question": "The capital of Tennessee",
     "correct": "Nashville",
     "wrongOne": "Memphis",
     "wrongTwo": "Knoxville",
     "wrongThree": "Chattanooga"
   },
   {
-    "question": "What is the capital of Texas?",
+    "question": "The capital of Texas",
     "correct": "Austin",
     "wrongOne": "San Antonio",
     "wrongTwo": "Dallas",
     "wrongThree": "Houston"
   },
   {
-    "question": "What is the capital of Utah?",
+    "question": "The capital of Utah",
     "correct": "Salt Lake City",
     "wrongOne": "West Valley City",
     "wrongTwo": "Provo",
     "wrongThree": "West Jordan"
   },
   {
-    "question": "What is the capital of Vermont?",
+    "question": "The capital of Vermont",
     "correct": "Montpelier",
     "wrongOne": "Essex",
     "wrongTwo": "Burlington",
     "wrongThree": "Colchester"
   },
   {
-    "question": "What is the capital of Virginia?",
+    "question": "The capital of Virginia",
     "correct": "Richmond",
     "wrongOne": "Norfolk",
     "wrongTwo": "Virginia Beach",
     "wrongThree": "Arlington"
   },
   {
-    "question": "What is the capital of Washington?",
+    "question": "The capital of Washington",
     "correct": "Olympia",
     "wrongOne": "Spokane",
     "wrongTwo": "Tacoma",
     "wrongThree": "Seattle"
   },
   {
-    "question": "What is the capital of West Virginia?",
+    "question": "The capital of West Virginia",
     "correct": "Charleston",
     "wrongOne": "Huntington",
     "wrongTwo": "Parkersburg",
     "wrongThree": "Morgantown"
   },
   {
-    "question": "What is the capital of Wisconsin?",
+    "question": "The capital of Wisconsin",
     "correct": "Madison",
     "wrongOne": "Milwaukee",
     "wrongTwo": "Green Bay",
     "wrongThree": "Kenosha"
   },
   {
-    "question": "What is the capital of Wyoming?",
+    "question": "The capital of Wyoming",
     "correct": "Cheyenne",
     "wrongOne": "Casper",
     "wrongTwo": "Laramie",
     "wrongThree": "Gillette"
   },
   {
-    "question": "What is the capital of the United States of America?",
+    "question": "The capital of the United States of America",
     "correct": "Washington D.C.",
     "wrongOne": "New York",
     "wrongTwo": "Chicago",

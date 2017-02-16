@@ -1,5 +1,6 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { AngularFireModule } from 'angularfire2';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -10,7 +11,13 @@ import { ScoreComponent } from '../components/score/score';
 import { TimerComponent } from '../components/timer/timer';
 import { TriviaComponent } from '../components/trivia/trivia.component';
 
-import { TriviaService } from '../services/trivia.service';
+export const firebaseConfig = {
+  apiKey: 'AIzaSyDasO-v4gAdQTBCJUqqJGx-Di8-YnPLhDc',
+  authDomain: 'trivia-5c132.firebaseapp.com',
+  databaseURL: 'https://trivia-5c132.firebaseio.com',
+  storageBucket: 'trivia-5c132.appspot.com',
+  messagingSenderId: '602266621249'
+};
 
 @NgModule({
   declarations: [
@@ -23,7 +30,8 @@ import { TriviaService } from '../services/trivia.service';
     TriviaComponent
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -35,6 +43,6 @@ import { TriviaService } from '../services/trivia.service';
     TimerComponent,
     TriviaComponent
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, TriviaService]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
 export class AppModule {}
