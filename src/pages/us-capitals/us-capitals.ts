@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 
@@ -7,6 +7,7 @@ import { AlertController } from 'ionic-angular';
   templateUrl: 'us-capitals.html'
 })
 export class USCapitalsPage {
+  @Output() game: string = 'us-capitals';
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController) {}
 
