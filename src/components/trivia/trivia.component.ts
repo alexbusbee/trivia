@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import 'rxjs/add/operator/map';
 
@@ -7,11 +7,12 @@ import 'rxjs/add/operator/map';
   templateUrl: 'trivia.html'
 })
 export class TriviaComponent {
+  @Input() game: string;
   items: FirebaseListObservable<any[]>;  
  
   constructor(af: AngularFire) {
     this.items = <FirebaseListObservable<any>> af.database
-      .list('/us-capitals')
+      .list('/' + this.game)
       .map(items => {
         function shuffle(a) {
             for (let i = a.length; i; i--) {
