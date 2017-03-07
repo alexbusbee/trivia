@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
+import { NavController, NavParams } from 'ionic-angular';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import 'rxjs/add/operator/map';
 
@@ -9,12 +10,13 @@ import { Trivia } from './trivia';
   templateUrl: 'trivia.html'
 })
 export class TriviaComponent {
-  @Input() game: string;
+  game: string;
   trivia: Trivia;
   items: FirebaseListObservable<any[]>;  
  
 // TODO Input/Output possibly sending data after constructor, so game is undefined at construct time. AF must be in constructor 
-  constructor(af: AngularFire) {
+  constructor(af: AngularFire, private navController: NavController, private navParams: NavParams) {
+    this.game = navParams.get('game');
     this.items = <FirebaseListObservable<any>> af.database
       .list('/' + this.game)
       .map(items => {

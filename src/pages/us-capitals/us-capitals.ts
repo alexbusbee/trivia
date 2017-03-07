@@ -1,15 +1,21 @@
-import { Component, Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 
+import { TriviaComponent } from '../../components/trivia/trivia.component';
+
 @Component({
   selector: 'page-us-capitals',
-  templateUrl: 'us-capitals.html'
+  templateUrl: 'us-capitals.html',
 })
 export class USCapitalsPage {
-  @Output() game: string = 'us-capitals';
+  game: string;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController) {
+    this.navCtrl.push(TriviaComponent, {
+      game: 'us-capitals'
+    })
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad USCapitalsPage');
