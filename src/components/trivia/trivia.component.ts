@@ -14,7 +14,7 @@ export class TriviaComponent {
   trivia: Trivia;
   items: FirebaseListObservable<any[]>;  
  
-// TODO Input/Output possibly sending data after constructor, so game is undefined at construct time. AF must be in constructor 
+// TODO add shuffle of answers http://ionicframework.com/docs/v2/api/components/item/ItemReorder/
   constructor(af: AngularFire, private navController: NavController, private navParams: NavParams) {
     this.game = navParams.get('game');
     this.items = <FirebaseListObservable<any>> af.database
