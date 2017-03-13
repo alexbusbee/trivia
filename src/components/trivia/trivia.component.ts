@@ -13,8 +13,9 @@ export class TriviaComponent {
   game: string;
   trivia: Trivia;
   items: FirebaseListObservable<any[]>;  
+  answers: {};
  
-// TODO add shuffle of answers http://ionicframework.com/docs/v2/api/components/item/ItemReorder/
+// TODO add shuffle of answers. Use custom pipe or map to iterate over object
   constructor(af: AngularFire, private navController: NavController, private navParams: NavParams) {
     this.game = navParams.get('game');
     this.items = <FirebaseListObservable<any>> af.database
