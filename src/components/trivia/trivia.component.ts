@@ -12,8 +12,8 @@ import { Trivia } from './trivia';
 export class TriviaComponent {
   game: string;
   trivia: Trivia;
-  items: FirebaseListObservable<any[]>;  
-  answers: {};
+  items: FirebaseListObservable<any[]>; 
+  answers: FirebaseListObservable<any[]>; 
  
 // TODO add shuffle of answers. Use custom pipe or map to iterate over object
   constructor(af: AngularFire, private navController: NavController, private navParams: NavParams) {

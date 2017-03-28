@@ -1,461 +1,359 @@
 [
   {
     "question": "Alabama",
-    "answers": {
-      "correct": "Montgomery",
-      "wrongOne": "Birmingham",
-      "wrongTwo": "Mobile",
-      "wrongThree": "Huntsville"
-    }
-  },
+    "correct": "Montgomery",
+    "wrongOne": "Birmingham",
+    "wrongTwo": "Mobile",
+    "wrongThree": "Huntsville"
+    },
   {
-    "question": "Alaska",
-    "answers": {    
-      "correct": "Juneau",
-      "wrongOne": "Anchorage",
-      "wrongTwo": "Fairbanks",
-      "wrongThree": "Sitka"
-    }
-  },
+    "question": "Alaska",   
+    "correct": "Juneau",
+    "wrongOne": "Anchorage",
+    "wrongTwo": "Fairbanks",
+    "wrongThree": "Sitka"
+    },
   {
-    "question": "Arkansas",
-    "answers": {    
-      "correct": "Phoenix",
-      "wrongOne": "Tucson",
-      "wrongTwo": "Mesa",
-      "wrongThree": "Glendale"
-    }
-  },
+    "question": "Arkansas",   
+    "correct": "Phoenix",
+    "wrongOne": "Tucson",
+    "wrongTwo": "Mesa",
+    "wrongThree": "Glendale"
+    },
   {
-    "question": "Alabama",
-    "answers": {    
-      "correct": "Little Rock",
-      "wrongOne": "Fort Smith",
-      "wrongTwo": "Fayetteville",
-      "wrongThree": "Springdale"
-    }
-  },
+    "question": "Alabama",   
+    "correct": "Little Rock",
+    "wrongOne": "Fort Smith",
+    "wrongTwo": "Fayetteville",
+    "wrongThree": "Springdale"
+    },
   {
-    "question": "California",
-    "answers": {    
-      "correct": "Sacramento",
-      "wrongOne": "San Diego",
-      "wrongTwo": "Los Angeles",
-      "wrongThree": "San Francisco"
-    }
-  },
+    "question": "California",   
+    "correct": "Sacramento",
+    "wrongOne": "San Diego",
+    "wrongTwo": "Los Angeles",
+    "wrongThree": "San Francisco"
+    },
   {
-    "question": "Colorado",
-    "answers": {    
-      "correct": "Denver",
-      "wrongOne": "Colorado Springs",
-      "wrongTwo": "Aurora",
-      "wrongThree": "Fort Collins"
-    }
-  },
+    "question": "Colorado",   
+    "correct": "Denver",
+    "wrongOne": "Colorado Springs",
+    "wrongTwo": "Aurora",
+    "wrongThree": "Fort Collins"
+    },
   {
     "question": "Connecticut",
-    "answers": {
-      "correct": "Hartford",
-      "wrongOne": "New Haven",
-      "wrongTwo": "Stamford",
-      "wrongThree": "Bridgeport"
-    }
-  },
+    "correct": "Hartford",
+    "wrongOne": "New Haven",
+    "wrongTwo": "Stamford",
+    "wrongThree": "Bridgeport"
+    },
   {
     "question": "Delaware",
-    "answers": {
-      "correct": "Dover",
-      "wrongOne": "Wilmington",
-      "wrongTwo": "Newark",
-      "wrongThree": "Middletown"
-    }
-  },
+    "correct": "Dover",
+    "wrongOne": "Wilmington",
+    "wrongTwo": "Newark",
+    "wrongThree": "Middletown"
+    },
   {
     "question": "Florida",
-    "answers": {
-      "correct": "Tallahassee",
-      "wrongOne": "Miami",
-      "wrongTwo": "Jacksonville",
-      "wrongThree": "Orlando"
-    }
-  },
+    "correct": "Tallahassee",
+    "wrongOne": "Miami",
+    "wrongTwo": "Jacksonville",
+    "wrongThree": "Orlando"
+    },
   {
     "question": "Georgia",
-    "answers": {
-      "correct": "Atlanta",
-      "wrongOne": "Columbus",
-      "wrongTwo": "Augusta",
-      "wrongThree": "Savannah"
-    }
-  },
+    "correct": "Atlanta",
+    "wrongOne": "Columbus",
+    "wrongTwo": "Augusta",
+    "wrongThree": "Savannah"
+    },
   {
     "question": "Hawaii",
-    "answers": {
-      "correct": "Honolulu",
-      "wrongOne": "Hilo",
-      "wrongTwo": "Kailua",
-      "wrongThree": "Kapolei"
-    }
-  },
+    "correct": "Honolulu",
+    "wrongOne": "Hilo",
+    "wrongTwo": "Kailua",
+    "wrongThree": "Kapolei"
+    },
   {
     "question": "Idaho",
-    "answers": {
-      "correct": "Boise",
-      "wrongOne": "Nampa",
-      "wrongTwo": "Meridian",
-      "wrongThree": "Idaho Falls"
-    }
-  },
+    "correct": "Boise",
+    "wrongOne": "Nampa",
+    "wrongTwo": "Meridian",
+    "wrongThree": "Idaho Falls"
+    },
   {
     "question": "Illinois",
-    "answers": {
-      "correct": "Springfield",
-      "wrongOne": "Aurora",
-      "wrongTwo": "Rockford",
-      "wrongThree": "Chicago"
-    }
-  },
+    "correct": "Springfield",
+    "wrongOne": "Aurora",
+    "wrongTwo": "Rockford",
+    "wrongThree": "Chicago"
+    },
   {
     "question": "Indiana",
-    "answers": {
-      "correct": "Indianapolis",
-      "wrongOne": "Fort Wayne",
-      "wrongTwo": "Evansville",
-      "wrongThree": "Gary"
-    }
-  },
+    "correct": "Indianapolis",
+    "wrongOne": "Fort Wayne",
+    "wrongTwo": "Evansville",
+    "wrongThree": "Gary"
+    },
   {
     "question": "Iowa",
-    "answers": {
-      "correct": "Des Moines",
-      "wrongOne": "Cedar Rapids",
-      "wrongTwo": "Davenport",
-      "wrongThree": "Sioux City"
-    }
-  },
+    "correct": "Des Moines",
+    "wrongOne": "Cedar Rapids",
+    "wrongTwo": "Davenport",
+    "wrongThree": "Sioux City"
+    },
   {
     "question": "Kansas",
-    "answers": {
-      "correct": "Topeka",
-      "wrongOne": "Overland Park",
-      "wrongTwo": "Kansas City",
-      "wrongThree": "Wichita"
-    }
-  },
+    "correct": "Topeka",
+    "wrongOne": "Overland Park",
+    "wrongTwo": "Kansas City",
+    "wrongThree": "Wichita"
+    },
   {
     "question": "Kentucky",
-    "answers": {
-      "correct": "Frankfort",
-      "wrongOne": "Lexington",
-      "wrongTwo": "Bowling Green",
-      "wrongThree": "Louisville"
-    }
-  },
+    "correct": "Frankfort",
+    "wrongOne": "Lexington",
+    "wrongTwo": "Bowling Green",
+    "wrongThree": "Louisville"
+    },
   {
     "question": "Louisiana",
-    "answers": {
-      "correct": "Baton Rouge",
-      "wrongOne": "New Orleans",
-      "wrongTwo": "Shreveport",
-      "wrongThree": "Lafayette"
-    }
-  },
+    "correct": "Baton Rouge",
+    "wrongOne": "New Orleans",
+    "wrongTwo": "Shreveport",
+    "wrongThree": "Lafayette"
+    },
   {
     "question": "Maine",
-    "answers": {
-      "correct": "Augusta",
-      "wrongOne": "Lewiston",
-      "wrongTwo": "Bangor",
-      "wrongThree": "Portland"
-    }
-  },
+    "correct": "Augusta",
+    "wrongOne": "Lewiston",
+    "wrongTwo": "Bangor",
+    "wrongThree": "Portland"
+    },
   {
     "question": "Maryland",
-    "answers": {
-      "correct": "Annapolis",
-      "wrongOne": "Columbia",
-      "wrongTwo": "Baltimore",
-      "wrongThree": "Silver Spring"
-    }
-  },
+    "correct": "Annapolis",
+    "wrongOne": "Columbia",
+    "wrongTwo": "Baltimore",
+    "wrongThree": "Silver Spring"
+    },
   {
     "question": "Massachusetts",
-    "answers": {
-      "correct": "Boston",
-      "wrongOne": "Worcester",
-      "wrongTwo": "Springfield",
-      "wrongThree": "Cambridge"
-    }
-  },
+    "correct": "Boston",
+    "wrongOne": "Worcester",
+    "wrongTwo": "Springfield",
+    "wrongThree": "Cambridge"
+    },
   {
     "question": "Michigan",
-    "answers": {
-      "correct": "Lansing",
-      "wrongOne": "Grand Rapids",
-      "wrongTwo": "Detroit",
-      "wrongThree": "Ann Arbor"
-    }
-  },
+    "correct": "Lansing",
+    "wrongOne": "Grand Rapids",
+    "wrongTwo": "Detroit",
+    "wrongThree": "Ann Arbor"
+    },
   {
     "question": "Minnesota",
-    "answers": {
-      "correct": "Saint Paul",
-      "wrongOne": "Minneapolis",
-      "wrongTwo": "Rochester",
-      "wrongThree": "Bloomington"
-    }
-  },
+    "correct": "Saint Paul",
+    "wrongOne": "Minneapolis",
+    "wrongTwo": "Rochester",
+    "wrongThree": "Bloomington"
+    },
   {
     "question": "Mississippi",
-    "answers": {
-      "correct": "Jackson",
-      "wrongOne": "Gulfport",
-      "wrongTwo": "Southaven",
-      "wrongThree": "Biloxi"
-    }
-  },
+    "correct": "Jackson",
+    "wrongOne": "Gulfport",
+    "wrongTwo": "Southaven",
+    "wrongThree": "Biloxi"
+    },
   {
     "question": "Missouri",
-    "answers": {
-      "correct": "Jefferson City",
-      "wrongOne": "Saint Louis",
-      "wrongTwo": "Springfield",
-      "wrongThree": "Kansas City"
-    }
-  },
+    "correct": "Jefferson City",
+    "wrongOne": "Saint Louis",
+    "wrongTwo": "Springfield",
+    "wrongThree": "Kansas City"
+    },
   {
     "question": "Montana",
-    "answers": {
-      "correct": "Helena",
-      "wrongOne": "Missoula",
-      "wrongTwo": "Great Falls",
-      "wrongThree": "Billings"
-    }
-  },
+    "correct": "Helena",
+    "wrongOne": "Missoula",
+    "wrongTwo": "Great Falls",
+    "wrongThree": "Billings"
+    },
   {
     "question": "Nebraska",
-    "answers": {
-      "correct": "Lincoln",
-      "wrongOne": "Omaha",
-      "wrongTwo": "Bellevue",
-      "wrongThree": "Grand Island"
-    }
-  },
+    "correct": "Lincoln",
+    "wrongOne": "Omaha",
+    "wrongTwo": "Bellevue",
+    "wrongThree": "Grand Island"
+    },
   {
     "question": "Nevada",
-    "answers": {
-      "correct": "Carson City",
-      "wrongOne": "Henderson",
-      "wrongTwo": "Reno",
-      "wrongThree": "Las Vegas"
-    }
-  },
+    "correct": "Carson City",
+    "wrongOne": "Henderson",
+    "wrongTwo": "Reno",
+    "wrongThree": "Las Vegas"
+    },
   {
     "question": "New Hampshire",
-    "answers": {
-      "correct": "Concord",
-      "wrongOne": "Nashua",
-      "wrongTwo": "Manchester",
-      "wrongThree": "Rochester"
-    }
-  },
+    "correct": "Concord",
+    "wrongOne": "Nashua",
+    "wrongTwo": "Manchester",
+    "wrongThree": "Rochester"
+    },
   {
     "question": "New Jersey",
-    "answers": {
-      "correct": "Trenton",
-      "wrongOne": "Jersey City",
-      "wrongTwo": "Newark",
-      "wrongThree": "Paterson"
-    }
-  },
+    "correct": "Trenton",
+    "wrongOne": "Jersey City",
+    "wrongTwo": "Newark",
+    "wrongThree": "Paterson"
+    },
   {
     "question": "New Mexico",
-    "answers": {
-      "correct": "Santa Fe",
-      "wrongOne": "Las Cruces",
-      "wrongTwo": "Rio Rancho",
-      "wrongThree": "Albuquerque"
-    }
-  },
+    "correct": "Santa Fe",
+    "wrongOne": "Las Cruces",
+    "wrongTwo": "Rio Rancho",
+    "wrongThree": "Albuquerque"
+    },
   {
     "question": "New York",
-    "answers": {
-      "correct": "Albany",
-      "wrongOne": "Buffalo",
-      "wrongTwo": "Rochester",
-      "wrongThree": "New York City"
-    }
-  },
+    "correct": "Albany",
+    "wrongOne": "Buffalo",
+    "wrongTwo": "Rochester",
+    "wrongThree": "New York City"
+    },
   {
     "question": "North Carolina",
-    "answers": {
-      "correct": "Raleigh",
-      "wrongOne": "Charlotte",
-      "wrongTwo": "Greensboro",
-      "wrongThree": "Durham"
-    }
-  },
+    "correct": "Raleigh",
+    "wrongOne": "Charlotte",
+    "wrongTwo": "Greensboro",
+    "wrongThree": "Durham"
+    },
   {
     "question": "North Dakota",
-    "answers": {
-      "correct": "Bismarck",
-      "wrongOne": "Fargo",
-      "wrongTwo": "Grand Forks",
-      "wrongThree": "Minot"
-    }
-  },
+    "correct": "Bismarck",
+    "wrongOne": "Fargo",
+    "wrongTwo": "Grand Forks",
+    "wrongThree": "Minot"
+    },
   {
     "question": "Ohio",
-    "answers": {
-      "correct": "Columbus",
-      "wrongOne": "Cleveland",
-      "wrongTwo": "Cincinnati",
-      "wrongThree": "Toledo"
-    }
-  },
+    "correct": "Columbus",
+    "wrongOne": "Cleveland",
+    "wrongTwo": "Cincinnati",
+    "wrongThree": "Toledo"
+    },
   {
     "question": "Oklahoma",
-    "answers": {
-      "correct": "Oklahoma City",
-      "wrongOne": "Tulsa",
-      "wrongTwo": "Norman",
-      "wrongThree": "Broken Arrow"
-    }
-  },
+    "correct": "Oklahoma City",
+    "wrongOne": "Tulsa",
+    "wrongTwo": "Norman",
+    "wrongThree": "Broken Arrow"
+    },
   {
     "question": "Oregon",
-    "answers": {
-      "correct": "Salem",
-      "wrongOne": "Portland",
-      "wrongTwo": "Eugene",
-      "wrongThree": "Gresham"
-    }
-  },
+    "correct": "Salem",
+    "wrongOne": "Portland",
+    "wrongTwo": "Eugene",
+    "wrongThree": "Gresham"
+    },
   {
     "question": "Pennsylvania",
-    "answers": {
-      "correct": "Harrisburg",
-      "wrongOne": "Pittsburgh",
-      "wrongTwo": "Allentown",
-      "wrongThree": "Philadelphia"
-    }
-  },
+    "correct": "Harrisburg",
+    "wrongOne": "Pittsburgh",
+    "wrongTwo": "Allentown",
+    "wrongThree": "Philadelphia"
+    },
   {
     "question": "Rhode Island",
-    "answers": {
-      "correct": "Providence",
-      "wrongOne": "Warwick",
-      "wrongTwo": "Cranston",
-      "wrongThree": "Pawtucket"
-    }
-  },
+    "correct": "Providence",
+    "wrongOne": "Warwick",
+    "wrongTwo": "Cranston",
+    "wrongThree": "Pawtucket"
+    },
   {
     "question": "South Carolina",
-    "answers": {
-      "correct": "Columbia",
-      "wrongOne": "Charleston",
-      "wrongTwo": "North Charleston",
-      "wrongThree": "Mount Pleasant"
-    }
-  },
+    "correct": "Columbia",
+    "wrongOne": "Charleston",
+    "wrongTwo": "North Charleston",
+    "wrongThree": "Mount Pleasant"
+    },
   {
     "question": "South Dakota",
-    "answers": {
-      "correct": "Pierre",
-      "wrongOne": "Rapid City",
-      "wrongTwo": "Aberdeen",
-      "wrongThree": "Sioux Falls"
-    }
-  },
+    "correct": "Pierre",
+    "wrongOne": "Rapid City",
+    "wrongTwo": "Aberdeen",
+    "wrongThree": "Sioux Falls"
+    },
   {
     "question": "Tennessee",
-    "answers": {
-      "correct": "Nashville",
-      "wrongOne": "Memphis",
-      "wrongTwo": "Knoxville",
-      "wrongThree": "Chattanooga"
-    }
-  },
+    "correct": "Nashville",
+    "wrongOne": "Memphis",
+    "wrongTwo": "Knoxville",
+    "wrongThree": "Chattanooga"
+    },
   {
     "question": "Texas",
-    "answers": {
-      "correct": "Austin",
-      "wrongOne": "San Antonio",
-      "wrongTwo": "Dallas",
-      "wrongThree": "Houston"
-    }
-  },
+    "correct": "Austin",
+    "wrongOne": "San Antonio",
+    "wrongTwo": "Dallas",
+    "wrongThree": "Houston"
+    },
   {
     "question": "Utah",
-    "answers": {
-      "correct": "Salt Lake City",
-      "wrongOne": "West Valley City",
-      "wrongTwo": "Provo",
-      "wrongThree": "West Jordan"
-    }
-  },
+    "correct": "Salt Lake City",
+    "wrongOne": "West Valley City",
+    "wrongTwo": "Provo",
+    "wrongThree": "West Jordan"
+    },
   {
     "question": "Vermont",
-    "answers": {
-      "correct": "Montpelier",
-      "wrongOne": "Essex",
-      "wrongTwo": "Burlington",
-      "wrongThree": "Colchester"
-    }
-  },
+    "correct": "Montpelier",
+    "wrongOne": "Essex",
+    "wrongTwo": "Burlington",
+    "wrongThree": "Colchester"
+    },
   {
     "question": "Virginia",
-    "answers": {
-      "correct": "Richmond",
-      "wrongOne": "Norfolk",
-      "wrongTwo": "Virginia Beach",
-      "wrongThree": "Arlington"
-    }
-  },
+    "correct": "Richmond",
+    "wrongOne": "Norfolk",
+    "wrongTwo": "Virginia Beach",
+    "wrongThree": "Arlington"
+    },
   {
     "question": "Washington",
-    "answers": {
-      "correct": "Olympia",
-      "wrongOne": "Spokane",
-      "wrongTwo": "Tacoma",
-      "wrongThree": "Seattle"
-    }
-  },
+    "correct": "Olympia",
+    "wrongOne": "Spokane",
+    "wrongTwo": "Tacoma",
+    "wrongThree": "Seattle"
+    },
   {
     "question": "West Virginia",
-    "answers": {
-      "correct": "Charleston",
-      "wrongOne": "Huntington",
-      "wrongTwo": "Parkersburg",
-      "wrongThree": "Morgantown"
-    }
-  },
+    "correct": "Charleston",
+    "wrongOne": "Huntington",
+    "wrongTwo": "Parkersburg",
+    "wrongThree": "Morgantown"
+    },
   {
     "question": "Wisconsin",
-    "answers": {
-      "correct": "Madison",
-      "wrongOne": "Milwaukee",
-      "wrongTwo": "Green Bay",
-      "wrongThree": "Kenosha"
-    }
-  },
+    "correct": "Madison",
+    "wrongOne": "Milwaukee",
+    "wrongTwo": "Green Bay",
+    "wrongThree": "Kenosha"
+    },
   {
     "question": "Wyoming",
-    "answers": {
-      "correct": "Cheyenne",
-      "wrongOne": "Casper",
-      "wrongTwo": "Laramie",
-      "wrongThree": "Gillette"
-    }
-  },
+    "correct": "Cheyenne",
+    "wrongOne": "Casper",
+    "wrongTwo": "Laramie",
+    "wrongThree": "Gillette"
+    },
   {
     "question": "the United States of America",
-    "answers": {
-      "correct": "Washington D.C.",
-      "wrongOne": "New York",
-      "wrongTwo": "Chicago",
-      "wrongThree": "Philadelphia"
-      }
+    "correct": "Washington D.C.",
+    "wrongOne": "New York",
+    "wrongTwo": "Chicago",
+    "wrongThree": "Philadelphia"
   }
 ]

@@ -1,6 +1,9 @@
 <ion-slides>
-    <ion-slide *ngFor="let item of items | async">
-        <h2 text-center>{{ item.question }}</h2>
-            <button ion-button block>{{ item.answers }}</button>
-    </ion-slide>
-</ion-slides>
+     <ion-slide *ngFor="let item of items | async">
+         <h2 text-center>{{ item.question }}</h2>
+             <button ion-button block>{{ item.correct }}</button>
+             <button ion-button block>{{ item.wrongOne}}</button>
+             <button ion-button block>{{ item.wrongTwo}}</button>
+             <button ion-button block>{{ item.wrongThree}}</button>
+     </ion-slide>
+ </ion-slides> 
