@@ -1,0 +1,32 @@
+{
+    "questions": [
+        {
+            "question": "Alabama",
+            "answers": [
+                {"answer": "Montgomery", "correct": true, "selected": false},
+                {"answer": "Birmingham", "correct": false, "selected": false},
+                {"answer": "Mobile", "correct": false, "selected": false},
+                {"answer": "Huntsville", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Alaska",
+            "answers": [
+                {"answer": "Juneau", "correct": true, "selected": false},
+                {"answer": "Anchorage", "correct": false, "selected": false},
+                {"answer": "Fairbanks", "correct": false, "selected": false},
+                {"answer": "Sitka", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Arizona",
+            "answers": [
+                {"answer": "Phoenix", "correct": true, "selected": false},
+                {"answer": "Tucson", "correct": false, "selected": false},
+                {"answer": "Mesa", "correct": false, "selected": false},
+                {"answer": "Glendale", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}

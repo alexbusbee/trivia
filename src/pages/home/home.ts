@@ -1,25 +1,17 @@
-import { Component} from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { Component } from '@angular/core';
+import { PickGamePage } from '../pick-game/pick-game';
 
-import { USCapitalsPage } from '../us-capitals/us-capitals';
-import { WorldCapitalsPage } from '../world-capitals/world-capitals';
+import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-  usCapitalsPage = USCapitalsPage;
-  worldCapitalsPage = WorldCapitalsPage;
+  pickGamePage = PickGamePage
 
-  constructor(public navCtrl: NavController) {}
-
-  playUSCapitals() {
-    this.navCtrl.push(USCapitalsPage);
-  };
-
-  playWorldCapitals() {
-    this.navCtrl.push(WorldCapitalsPage);
-  };
+  constructor(public navCtrl: NavController) {
+    
+  }
 
 }

@@ -1,45 +1,18 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-import { AlertController } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 
-import { TriviaComponent } from '../../components/trivia/trivia.component';
+/*
+  Generated class for the UsCapitals page.
 
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
 @Component({
   selector: 'page-us-capitals',
-  templateUrl: 'us-capitals.html',
+  templateUrl: 'us-capitals.html'
 })
-export class USCapitalsPage {
-  game: string;
+export class UsCapitalsPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController) {
-    this.navCtrl.push(TriviaComponent, {
-      game: 'us-capitals'
-    })
-  }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad USCapitalsPage');
-  }
-
-  ngOnInit() {
-    let confirm = this.alertCtrl.create({
-      title: 'U.S. Capitals',
-      message: 'You have 60 seconds to answer as many questions as you can.',
-      buttons: [
-        {
-          text: 'Back',
-          handler: () => {
-            this.navCtrl.popToRoot();
-          }
-        },
-        {
-          text: 'Go!',
-          handler: () => {
-            console.log('Go! clicked');
-          }
-        }
-      ]
-    });
-    confirm.present();
-  }
+    constructor(public navCtrl: NavController) {};
+ 
 }

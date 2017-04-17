@@ -1,9 +1,10 @@
-<ion-content padding>
-  <h1>New Game</h1>
-    <button (click)="playUSCapitals()" ion-button block margin-bottom>U.S. Capitals</button>
-    <button (click)="playWorldCapitals()" ion-button block margin-bottom>World Capitals</button>
-</ion-content>
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
 
-<ion-footer padding-right>
-  <p text-right>Alex Busbee © 2017</p>
-</ion-footer>
+<ion-content padding>
+  <button [navPush]="pickGamePage">New Game</button>
+</ion-content>

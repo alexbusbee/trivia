@@ -1,48 +1,38 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { AngularFireModule } from 'angularfire2';
-
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { USCapitalsPage } from '../pages/us-capitals/us-capitals';
-import { WorldCapitalsPage } from '../pages/world-capitals/world-capitals';
+import { PickGamePage } from '../pages/pick-game/pick-game';
+import { UsCapitalsPage } from '../pages/us-capitals/us-capitals';
+import { TriviaCardComponent } from '../components/trivia-card/trivia-card'
+import { Data } from '../providers/data';
 
-import { ScoreComponent } from '../components/score/score';
-import { TimerComponent } from '../components/timer/timer';
-import { TriviaComponent } from '../components/trivia/trivia.component';
-
-export const firebaseConfig = {
-  apiKey: 'AIzaSyDasO-v4gAdQTBCJUqqJGx-Di8-YnPLhDc',
-  authDomain: 'trivia-5c132.firebaseapp.com',
-  databaseURL: 'https://trivia-5c132.firebaseio.com',
-  storageBucket: 'trivia-5c132.appspot.com',
-  messagingSenderId: '602266621249'
-};
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    USCapitalsPage,
-    WorldCapitalsPage,
-    ScoreComponent,
-    TimerComponent,
-    TriviaComponent
+    PickGamePage,
+    UsCapitalsPage,
+    TriviaCardComponent
   ],
   imports: [
-    IonicModule.forRoot(MyApp),
-    AngularFireModule.initializeApp(firebaseConfig)
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-    USCapitalsPage,
-    WorldCapitalsPage,
-    ScoreComponent,
-    TimerComponent,
-    TriviaComponent
+    PickGamePage,
+    UsCapitalsPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [
+    StatusBar,
+    SplashScreen,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    Data
+  ]
 })
 export class AppModule {}
