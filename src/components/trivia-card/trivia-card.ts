@@ -1,33 +1,33 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import { PickGamePage } from '../../pages/pick-game/pick-game';
+import { NavController, Events } from 'ionic-angular';
+import { UsCapitalsPage } from "../../pages/us-capitals/us-capitals";
+import { HomePage } from '../../pages/home/home';
+import { TimerComponent } from "../timer/timer";
 import { Data } from '../../providers/data';
-/*
-  Generated class for the TriviaCard component.
 
-  See https://angular.io/docs/ts/latest/api/core/index/ComponentMetadata-class.html
-  for more info on Angular 2 Components.
-*/
 @Component({
   selector: 'trivia-card',
   templateUrl: 'trivia-card.html'
 })
 export class TriviaCardComponent {
-    pickGamePage = PickGamePage;
+    homePage = HomePage;
+    usCapitalsPage = UsCapitalsPage;
     usTrivia = 'assets/data/us-capitals.json';
 
     @ViewChild('slides') slides: any;
+    @ViewChild(TimerComponent) timerComponent: TimerComponent;
  
     hasAnswered: boolean = false;
     score: number = 0;
  
     slideOptions: any;
     questions: any;
+    slideCount: number;
  
-    constructor(public navCtrl: NavController, public dataService: Data) {
+    constructor(public navCtrl: NavController, public dataService: Data, public events: Events) {
  
         this.slideOptions = {
-            onlyExternal: true
+            onlclickyExternal: true,
         };
 
     }
@@ -48,9 +48,25 @@ export class TriviaCardComponent {
         });
  
     }
- 
+
     nextSlide(){
         this.slides.slideNext();
+        let isLastSlide = this.slides.isEnd();
+        if(TimerComponent && isLastSlide) {
+            this.timerComponent.stopTimer();
+        }
+    }
+
+    start(){
+        this.nextSlide();
+        if(TimerComponent) {
+            this.timerComponent.startTimer();
+
+            this.events.subscribe('timer:done', () => {
+                let lastSlide = this.slides.length();
+                this.slides.slideTo(lastSlide, 100);
+            })
+        }
     }
  
     selectAnswer(answer, question){
@@ -58,7 +74,7 @@ export class TriviaCardComponent {
         this.hasAnswered = true;
         answer.selected = true;
 
-        if(answer.correct){
+        if (answer.correct) {
             this.score++;
             this.nextSlide();
         } else {
@@ -86,7 +102,6 @@ export class TriviaCardComponent {
  
     restartQuiz(){
         this.score = 0;
-        this.slides.slideTo(1, 1000);
+        this.slides.slideTo(1, 100);
     }
- 
 }

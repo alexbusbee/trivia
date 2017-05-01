@@ -1,15 +1,17 @@
 <ion-content>
- 
+    
+    <timer></timer>
+
+    <h3>{{score}}</h3>
+    
     <ion-slides #slides [options]="slideOptions">
  
         <ion-slide class="start-slide">
-            <button ion-button color="primary" (click)="nextSlide()">Start!</button>
+            <button ion-button color="primary" (click)="start()">Start!</button>
         </ion-slide>
  
         <ion-slide *ngFor="let question of questions; let i = index;">
  
-            <h3>{{score}}</h3>
-              
               <h3>{{question.question}}</h3>
  
             <ion-list no-lines radio-group>
@@ -28,9 +30,9 @@
         <ion-slide>
             <h2>Final Score: {{score}}</h2>
  
-            <button (click)="restartQuiz()" ion-button full color="primary">Play Again</button>
+            <button [navPush]="usCapitalsPage" ion-button full color="primary">Play Again</button>
 
-            <button [navPush]="pickGamePage" ion-button full color="primary">Quit</button>
+            <button [navPush]="homePage" ion-button full color="primary">Quit</button>
  
         </ion-slide>
  

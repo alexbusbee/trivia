@@ -5,6 +5,7 @@ import { HomePage } from '../pages/home/home';
 import { PickGamePage } from '../pages/pick-game/pick-game';
 import { UsCapitalsPage } from '../pages/us-capitals/us-capitals';
 import { TriviaCardComponent } from '../components/trivia-card/trivia-card'
+import { TimerComponent } from "../components/timer/timer";
 import { Data } from '../providers/data';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,7 +17,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     PickGamePage,
     UsCapitalsPage,
-    TriviaCardComponent
+    TriviaCardComponent,
+    TimerComponent,
   ],
   imports: [
     IonicModule.forRoot(MyApp)
