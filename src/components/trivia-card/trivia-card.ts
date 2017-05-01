@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController, Events } from 'ionic-angular';
+import { NavController, NavParams, Events } from 'ionic-angular';
 import { UsCapitalsPage } from "../../pages/us-capitals/us-capitals";
 import { HomePage } from '../../pages/home/home';
 import { TimerComponent } from "../timer/timer";
@@ -24,7 +24,7 @@ export class TriviaCardComponent {
     questions: any;
     slideCount: number;
  
-    constructor(public navCtrl: NavController, public dataService: Data, public events: Events) {
+    constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: Data, public events: Events) {
  
         this.slideOptions = {
             onlclickyExternal: true,
@@ -33,7 +33,8 @@ export class TriviaCardComponent {
     }
 
     ngOnInit() {
-        this.dataService.load(this.usTrivia).then((data) => {
+        let trivia = this.navParams.get('path');
+        this.dataService.load(trivia).then((data) => {
  
             data.map((question) => {
  

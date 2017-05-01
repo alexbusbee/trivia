@@ -12,4 +12,14 @@ export class PickGamePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
+  launchGamePage(name) {
+    let data = {
+      usCapitals: {
+        path: 'assets/data/us-capitals.json',
+        page: UsCapitalsPage
+      }
+    };
+    this.navCtrl.push(data[name].page, data[name]);
+  }
+
 }
