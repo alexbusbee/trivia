@@ -38,10 +38,13 @@ export class TriviaCardComponent {
  
             data.map((question) => {
  
-                let originalOrder = question.answers;
-                question.answers = this.randomizeAnswers(originalOrder);
-                return question;
+                let originalQuestionOrder = data;
+                data = this.randomize(originalQuestionOrder);
  
+                let originalAnswerOrder = question.answers;
+                question.answers = this.randomize(originalAnswerOrder);
+                return question;
+
             });     
  
             this.questions = data;
@@ -88,16 +91,16 @@ export class TriviaCardComponent {
         answer.selected = false;
     }
  
-    randomizeAnswers(rawAnswers: any[]): any[] {
+    randomize(raw: any[]): any[] {
  
-        for (let i = rawAnswers.length - 1; i > 0; i--) {
+        for (let i = raw.length - 1; i > 0; i--) {
             let j = Math.floor(Math.random() * (i + 1));
-            let temp = rawAnswers[i];
-            rawAnswers[i] = rawAnswers[j];
-            rawAnswers[j] = temp;
+            let temp = raw[i];
+            raw[i] = raw[j];
+            raw[j] = temp;
         }
  
-        return rawAnswers;
+        return raw;
  
     }
  
