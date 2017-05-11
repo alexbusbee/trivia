@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { UsCapitalsPage } from '../us-capitals/us-capitals';
+import { WorldCapitalsPage } from "../world-capitals/world-capitals";
 
 import { NavController, NavParams } from 'ionic-angular';
 
@@ -9,6 +10,7 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class PickGamePage {
   usCapitalsPage = UsCapitalsPage;
+  worldCapitalsPage = WorldCapitalsPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
@@ -17,6 +19,10 @@ export class PickGamePage {
       usCapitals: {
         path: 'assets/data/us-capitals.json',
         page: UsCapitalsPage
+      },
+      worldCapitals: {
+        path: 'assets/data/world-capitals.json',
+        page: WorldCapitalsPage
       }
     };
     this.navCtrl.push(data[name].page, data[name]);

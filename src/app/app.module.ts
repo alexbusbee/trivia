@@ -4,6 +4,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PickGamePage } from '../pages/pick-game/pick-game';
 import { UsCapitalsPage } from '../pages/us-capitals/us-capitals';
+import { WorldCapitalsPage } from "../pages/world-capitals/world-capitals";
 import { TriviaCardComponent } from '../components/trivia-card/trivia-card'
 import { TimerComponent } from "../components/timer/timer";
 import { Data } from '../providers/data';
@@ -17,6 +18,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     PickGamePage,
     UsCapitalsPage,
+    WorldCapitalsPage,
     TriviaCardComponent,
     TimerComponent,
   ],
@@ -28,7 +30,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     PickGamePage,
-    UsCapitalsPage
+    UsCapitalsPage,
+    WorldCapitalsPage
   ],
   providers: [
     StatusBar,

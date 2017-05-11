@@ -1,0 +1,599 @@
+{
+    "questions": [
+        {
+            "question": "The United States of America", 
+            "answers": [
+                {"answer": "Washington D.C.", "correct": true, "selected": false},
+                {"answer": "New York", "correct": false, "selected": false},
+                {"answer": "Chicago", "correct": false, "selected": false},
+                {"answer": "Philadelphia", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Afghanistan", 
+            "answers": [
+                {"answer": "Kabul", "correct": true, "selected": false},
+                {"answer": "Kandahar", "correct": false, "selected": false},
+                {"answer": "Herat", "correct": false, "selected": false},
+                {"answer": "Ghazni", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Albania", 
+            "answers": [
+                {"answer": "Tiranë", "correct": true, "selected": false},
+                {"answer": "Durrës", "correct": false, "selected": false},
+                {"answer": "Vlorë", "correct": false, "selected": false},
+                {"answer": "Elbasan", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Algeria", 
+            "answers": [
+                {"answer": "Algiers", "correct": true, "selected": false},
+                {"answer": "Oran", "correct": false, "selected": false},
+                {"answer": "Constantine", "correct": false, "selected": false},
+                {"answer": "Annaba", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Andorra", 
+            "answers": [
+                {"answer": "Andorra la Vella", "correct": true, "selected": false},
+                {"answer": "Escaldes-Engordany", "correct": false, "selected": false},
+                {"answer": "Encamp", "correct": false, "selected": false},
+                {"answer": "Sant Julià de Lòria", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Angola", 
+            "answers": [
+                {"answer": "Luanda", "correct": true, "selected": false},
+                {"answer": "N'dalatando", "correct": false, "selected": false},
+                {"answer": "Huambo", "correct": false, "selected": false},
+                {"answer": "Lobito", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Antigua and Barbuda", 
+            "answers": [
+                {"answer": "St. John's", "correct": true, "selected": false},
+                {"answer": "All Saints", "correct": false, "selected": false},
+                {"answer": "Piggotts", "correct": false, "selected": false},
+                {"answer": "Liberta", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Argentina", 
+            "answers": [
+                {"answer": "Buenos Aires", "correct": true, "selected": false},
+                {"answer": "Córdoba", "correct": false, "selected": false},
+                {"answer": "Rosario", "correct": false, "selected": false},
+                {"answer": "Mendoza", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Armenia", 
+            "answers": [
+                {"answer": "Yerevan", "correct": true, "selected": false},
+                {"answer": "Gyumri", "correct": false, "selected": false},
+                {"answer": "Vanadzor", "correct": false, "selected": false},
+                {"answer": "Vagharshapat", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Australia", 
+            "answers": [
+                {"answer": "Canberra", "correct": true, "selected": false},
+                {"answer": "Sydney", "correct": false, "selected": false},
+                {"answer": "Melbourne", "correct": false, "selected": false},
+                {"answer": "Brisbane", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Austria", 
+            "answers": [
+                {"answer": "Vienna", "correct": true, "selected": false},
+                {"answer": "Linz", "correct": false, "selected": false},
+                {"answer": "Salsburg", "correct": false, "selected": false},
+                {"answer": "Graz", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Azerbaijan", 
+            "answers": [
+                {"answer": "Baku", "correct": true, "selected": false},
+                {"answer": "Ganja", "correct": false, "selected": false},
+                {"answer": "Sumqayit", "correct": false, "selected": false},
+                {"answer": "Lankaran", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Bahamas", 
+            "answers": [
+                {"answer": "Nassau", "correct": true, "selected": false},
+                {"answer": "Freeport", "correct": false, "selected": false},
+                {"answer": "West End", "correct": false, "selected": false},
+                {"answer": "Dunmore Town", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Bahrain", 
+            "answers": [
+                {"answer": "Manama", "correct": true, "selected": false},
+                {"answer": "Muharraq", "correct": false, "selected": false},
+                {"answer": "A'ali", "correct": false, "selected": false},
+                {"answer": "Juffair", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Bangladesh", 
+            "answers": [
+                {"answer": "Dhaka", "correct": true, "selected": false},
+                {"answer": "Chittagong", "correct": false, "selected": false},
+                {"answer": "Rajshahi", "correct": false, "selected": false},
+                {"answer": "Sylhet", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Barbados", 
+            "answers": [
+                {"answer": "Bridgetown", "correct": true, "selected": false},
+                {"answer": "Speightstown", "correct": false, "selected": false},
+                {"answer": "Oistins", "correct": false, "selected": false},
+                {"answer": "Bathsheba", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Belarus", 
+            "answers": [
+                {"answer": "Minsk", "correct": true, "selected": false},
+                {"answer": "Gomel", "correct": false, "selected": false},
+                {"answer": "Grodno", "correct": false, "selected": false},
+                {"answer": "Mogilev", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Belgium", 
+            "answers": [
+                {"answer": "Brussels", "correct": true, "selected": false},
+                {"answer": "Ghent", "correct": false, "selected": false},
+                {"answer": "Bruges", "correct": false, "selected": false},
+                {"answer": "Antwerp", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Belize", 
+            "answers": [
+                {"answer": "Belmopan", "correct": true, "selected": false},
+                {"answer": "Belize City", "correct": false, "selected": false},
+                {"answer": "San Ignacio", "correct": false, "selected": false},
+                {"answer": "Orange Walk", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Benin", 
+            "answers": [
+                {"answer": "Porto-Novo", "correct": true, "selected": false},
+                {"answer": "Cotonou", "correct": false, "selected": false},
+                {"answer": "Parakou", "correct": false, "selected": false},
+                {"answer": "Djougou", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Bhutan", 
+            "answers": [
+                {"answer": "Thimphu", "correct": true, "selected": false},
+                {"answer": "Phuntsholing", "correct": false, "selected": false},
+                {"answer": "Gelephu", "correct": false, "selected": false},
+                {"answer": "Jakar", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Bolivia", 
+            "answers": [
+                {"answer": "Sucre", "correct": true, "selected": false},
+                {"answer": "La Paz", "correct": false, "selected": false},
+                {"answer": "Cochabamba", "correct": false, "selected": false},
+                {"answer": "Santa Cruz de la Sierra", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Bosnia and Herzegovina", 
+            "answers": [
+                {"answer": "Sarajevo", "correct": true, "selected": false},
+                {"answer": "Mostar", "correct": false, "selected": false},
+                {"answer": "Banja Luka", "correct": false, "selected": false},
+                {"answer": "Tuzla", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Botswana", 
+            "answers": [
+                {"answer": "Gaborone", "correct": true, "selected": false},
+                {"answer": "Francistown", "correct": false, "selected": false},
+                {"answer": "Molepolole", "correct": false, "selected": false},
+                {"answer": "Kanye", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Brazil", 
+            "answers": [
+                {"answer": "Brasília", "correct": true, "selected": false},
+                {"answer": "São Paulo", "correct": false, "selected": false},
+                {"answer": "Rio de Janeiro", "correct": false, "selected": false},
+                {"answer": "Salvador", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Brunei", 
+            "answers": [
+                {"answer": "Bandar Seri Begawan", "correct": true, "selected": false},
+                {"answer": "Kuala Belait", "correct": false, "selected": false},
+                {"answer": "Jerudong", "correct": false, "selected": false},
+                {"answer": "Bangar", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Bulgaria", 
+            "answers": [
+                {"answer": "Sofia", "correct": true, "selected": false},
+                {"answer": "Plovdiv", "correct": false, "selected": false},
+                {"answer": "Varna", "correct": false, "selected": false},
+                {"answer": "Burgas", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Burkina Faso", 
+            "answers": [
+                {"answer": "Ouagadougou", "correct": true, "selected": false},
+                {"answer": "Bobo-Dioulasso", "correct": false, "selected": false},
+                {"answer": "Banfora", "correct": false, "selected": false},
+                {"answer": "Koudougou", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Burundi", 
+            "answers": [
+                {"answer": "Bujumbura", "correct": true, "selected": false},
+                {"answer": "Muyinga", "correct": false, "selected": false},
+                {"answer": "Rumonge", "correct": false, "selected": false},
+                {"answer": "Ruyigi", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Cambodia", 
+            "answers": [
+                {"answer": "Phnom Penh", "correct": true, "selected": false},
+                {"answer": "Battambang", "correct": false, "selected": false},
+                {"answer": "Siem Reap", "correct": false, "selected": false},
+                {"answer": "Banlung", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Cameroon", 
+            "answers": [
+                {"answer": "Yaoundé", "correct": true, "selected": false},
+                {"answer": "Douala", "correct": false, "selected": false},
+                {"answer": "Bamenda", "correct": false, "selected": false},
+                {"answer": "Garoua", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Canada", 
+            "answers": [
+                {"answer": "Ottawa", "correct": true, "selected": false},
+                {"answer": "Toronto", "correct": false, "selected": false},
+                {"answer": "Montréal", "correct": false, "selected": false},
+                {"answer": "Vancouver", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Cape Verde", 
+            "answers": [
+                {"answer": "Praia", "correct": true, "selected": false},
+                {"answer": "Santa Maria", "correct": false, "selected": false},
+                {"answer": "Assomada", "correct": false, "selected": false},
+                {"answer": "Tarrafal", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "The Central African Republic", 
+            "answers": [
+                {"answer": "Bangui", "correct": true, "selected": false},
+                {"answer": "Bimbo", "correct": false, "selected": false},
+                {"answer": "Mbaïki", "correct": false, "selected": false},
+                {"answer": "Berbérati", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Chad", 
+            "answers": [
+                {"answer": "N'Djamena", "correct": true, "selected": false},
+                {"answer": "Moundou", "correct": false, "selected": false},
+                {"answer": "Sarh", "correct": false, "selected": false},
+                {"answer": "Faya-Largeau", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Chile", 
+            "answers": [
+                {"answer": "Santiago", "correct": true, "selected": false},
+                {"answer": "Antofagasta", "correct": false, "selected": false},
+                {"answer": "Valparaíso", "correct": false, "selected": false},
+                {"answer": "La Serena", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "China", 
+            "answers": [
+                {"answer": "Beijing", "correct": true, "selected": false},
+                {"answer": "Shanghai", "correct": false, "selected": false},
+                {"answer": "Tianjin", "correct": false, "selected": false},
+                {"answer": "Guangzhou", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Colombia", 
+            "answers": [
+                {"answer": "Bogotá", "correct": true, "selected": false},
+                {"answer": "Santiago de Cali", "correct": false, "selected": false},
+                {"answer": "Medellín", "correct": false, "selected": false},
+                {"answer": "Barranquilla", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Comoros", 
+            "answers": [
+                {"answer": "Moroni", "correct": true, "selected": false},
+                {"answer": "Moutsamoudou", "correct": false, "selected": false},
+                {"answer": "Fomboni", "correct": false, "selected": false},
+                {"answer": "Domoni", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "the Democratic Republic of the Congo", 
+            "answers": [
+                {"answer": "Kinshasa", "correct": true, "selected": false},
+                {"answer": "Lubumbashi", "correct": false, "selected": false},
+                {"answer": "Mbuji-Mayi", "correct": false, "selected": false},
+                {"answer": "Kisangani", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "the Republic of the Congo", 
+            "answers": [
+                {"answer": "Brazzaville", "correct": true, "selected": false},
+                {"answer": "Pointe-Noire", "correct": false, "selected": false},
+                {"answer": "Dolisie", "correct": false, "selected": false},
+                {"answer": "Kayes", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Costa Rica", 
+            "answers": [
+                {"answer": "San José", "correct": true, "selected": false},
+                {"answer": "Puerto Limón", "correct": false, "selected": false},
+                {"answer": "San Francisco", "correct": false, "selected": false},
+                {"answer": "Alajuela", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Croatia", 
+            "answers": [
+                {"answer": "Zagreb", "correct": true, "selected": false},
+                {"answer": "Dubrovnik", "correct": false, "selected": false},
+                {"answer": "Split", "correct": false, "selected": false},
+                {"answer": "Rijeka", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Cuba", 
+            "answers": [
+                {"answer": "Havana", "correct": true, "selected": false},
+                {"answer": "Santiago de Cuba", "correct": false, "selected": false},
+                {"answer": "Camagüey", "correct": false, "selected": false},
+                {"answer": "Santa Clara", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Cyprus", 
+            "answers": [
+                {"answer": "Nicosia", "correct": true, "selected": false},
+                {"answer": "Larnaca", "correct": false, "selected": false},
+                {"answer": "Limassol", "correct": false, "selected": false},
+                {"answer": "Paphos", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "The Czech Republic", 
+            "answers": [
+                {"answer": "Prague", "correct": true, "selected": false},
+                {"answer": "Brno", "correct": false, "selected": false},
+                {"answer": "Ostrava", "correct": false, "selected": false},
+                {"answer": "Pilsen", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Denmark", 
+            "answers": [
+                {"answer": "Copenhagen", "correct": true, "selected": false},
+                {"answer": "Aarhus", "correct": false, "selected": false},
+                {"answer": "Odense", "correct": false, "selected": false},
+                {"answer": "Esbjerg", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Djibouti", 
+            "answers": [
+                {"answer": "Djibouti", "correct": true, "selected": false},
+                {"answer": "Tadjoura", "correct": false, "selected": false},
+                {"answer": "Dikhil", "correct": false, "selected": false},
+                {"answer": "Ali Sabieh", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Dominica", 
+            "answers": [
+                {"answer": "Roseau", "correct": true, "selected": false},
+                {"answer": "Grand Bay", "correct": false, "selected": false},
+                {"answer": "Portsmouth", "correct": false, "selected": false},
+                {"answer": "Marigot", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "The Dominican Republic", 
+            "answers": [
+                {"answer": "Santo Domingo", "correct": true, "selected": false},
+                {"answer": "San Cristóbal", "correct": false, "selected": false},
+                {"answer": "La Vega", "correct": false, "selected": false},
+                {"answer": "Santiago", "correct": false, "selected": false}
+            ]
+        },
+    ]
+}
+
+East Timor	Dili	Ainaro	Manatuto	Gleno
+Ecuador	Quito	Guayaquil	Cuenca	Ambato
+Egypt	Cairo	Alexandria	Luxor	Giza
+El Salvador	San Salvador	Santa Ana	Soyapango	San Miguel
+Equatorial Guinea	Malabo	Bata	Oyala	Mbini
+Eritrea	Asmara	Keren	Massawa	Senafe
+Estonia	Tallinn	Tartu	Pärnu	Kohtla-Järve
+Ethiopia	Addis Ababa	Dire Dawa	Bahir Dar	Adama
+Fiji	Suva	Nadi	Lautoka	Labasa
+Finland	Helsinki	Turku	Tampere	Vantaa
+France	Paris	Marseille	Lyon	Nice
+Gabon	Libreville	Port-Gentil	Moanda	Lambaréné
+The Gambia	Banjul	Bakau	Sukuta	Farafenni
+Georgia	Tbilisi	Kutaisi	Batumi	Rustavi
+Germany	Berlin	Munich	Frankfurt	Hamburg
+Ghana	Accra	Kumasi	Sunyani	Sekondi-Takoradi
+Greece	Athens	Thebes	Thessaloniki	Sparta
+Grenada	St. George's	Gouyave	Willis	Sauteurs
+Guatemala	Guatemala City	Mixco	Villa Nueva	Quetzaltenango
+Guinea	Conakry	Nzérékoré	Kindia	Boké
+Guinea-Bissau	Bissau	Bafatá	Gabú	Bissorã
+Guyana	Georgetown	Anna Regina	New Amsterdam	Linden
+Haiti	Port-au-Prince	Carrefour	Delmas	Pétionville
+Honduras	Tegucigalpa	San Pedro Sula	Choloma	La Ceiba
+Hungary	Budapest	Kecskemét	Nyíregyháza	Győr
+Iceland	Reykjavík	Kópavogur	Hafnarfjörður	Akureyri
+India	New Delhi	Mumbai	Bengaluru	Hyderabad
+Indonesia	Jakarta	Bandung	Medan	Palembang
+Iran	Tehran	Isfahan	Mashhad	Qom
+Iraq	Baghdad	Basra	Erbil	Mosul
+Ireland	Dublin	Galway	Cork	Limerick
+Israel	Jerusalem	Tel Aviv	Haifa	Rishon LeZion
+Italy	Rome	Venice	Milan	Naples
+Ivory Coast	Yamoussoukro	Abidjan	Bouaké	Daloa
+Jamaica	Kingston	Montego Bay	Portmore	Spanish Town
+Japan	Tokyo	Kyoto	Osaka	Yokohama
+Jordan	Amman	Aqaba	Madaba	Zarqa
+Kazakhstan	Astana	Almaty	Shymkent	Karaganda
+Kenya	Nairobi	Mombasa	Nakuru	Malindi
+Kiribati	South Tarawa	Ambo	London	Rungata
+North Korea	Pyongyang	Hamhung	Sinuiju	Kaesong
+South Korea	Seoul	Busan	Incheon	Daegu
+Kuwait	Kuwait City	Al Jahra	Salmiya	Hawally
+Kyrgyzstan	Bishkek	Osh	Jalal-Abad	Karakol
+Laos	Vientiane	Pakse	Savannakhet	Luang Prabang
+Latvia	Riga	Daugavpils	Liepāja	Jelgava
+Lebanon	Beirut	Tripoli	Sidon	Jounieh
+Lesotho	Maseru	Teyateyaneng	Hlotse	Mafeteng
+Liberia	Monrovia	Ganta	Zwedru	Fish Town
+Libya	Tripoli	Benghazi	Misrata	Bayda
+Liechtenstein	Vaduz	Schaan	Triesen	Balzers
+Lithuania	Vilnius	Kaunas	Klaipėda	Šiauliai
+Luxembourg	Luxembourg	Esch-sur-Alzette	Differdange	Dudelange
+the Republic of Macedonia	Skopje	Bitola	Kumanovo	Prilep
+Madagascar	Antananarivo	Toamasina	Antsirabe	Mahajanga
+Malawi	Lilongwe	Blantyre	Zomba	Mzuzu
+Malaysia	Kuala Lumpur	George Town	Ipoh	Kuching
+Maldives	Malé	Fuvahmulah	Hithadhoo	Kulhudhuffushi
+Mali	Bamako	Sikasso	Mopti	Koutiala
+Malta	Valletta	Qormi	Żabbar	Żebbuġ
+the Marshall Islands	Majuro	Ebaye	Arno	Jabor
+Mauritania	Nouakchott	Nouadhibou	Nema	Kaedi
+Mauritius	Port Louis	Vacoas	Curepipe	Quatre Bornes
+Mexico	Mexico City	Ecatepec	Guadalajara	Puebla
+the Federated States of Micronesia	Palikir	Weno	Tofol	Kolonia
+Moldova	Chișinău	Tiraspolul	Balti	Bender
+Monaco	Monaco	Nice	Sanremo	Cannes
+Mongolia	Ulaanbaatar	Darkhan	Erdenet	Mörön
+Montenegro	Podgorica	Nikšić	Pljevlja	Bijelo Polje
+Morocco	Rabat	Casablanca	Fez	Tangier
+Mozambique	Maputo	Matola	Beira	Nampula
+Myanmar	Nay Pyi Taw	Rangoon	Mandalay	Mawlamyine
+Namibia	Windhoek	Rundu 	Walvis Bay	Oshakati
+Nauru	None	Arijejen	Baitsi District	Anabar
+Nepal	Kathmandu	Pokhara	Biratnagar	Dharan
+the Netherlands	Amsterdam	Rotterdam	Utrecht	Eindhoven 
+New Zealand	Wellington	Auckland	Christchurch	Hamilton
+Nicaragua	Managua	Leon	Masaya	Tipitapa
+Niger	Niamey	Zinder	Maradi	Agadez
+Nigeria	Abuja	Lagos	Kano	Ibadan
+Norway	Oslo	Bergen	Trondheim	Stavanger
+Oman	Muscat	As Sib al Jadidah	Salalah	Bawshar
+Pakistan	Islamabad	Karachi	Lahore	Hyderabad
+Palau	Ngerulmud	Koror	Koror Town	Kloulklubed
+Panama	Panama City	San Miguelito	Tocumen	David
+Papua New Guinea	Port Moresby	Lae	Arawa	Mount Hagen
+Paraguay	Asunción	Ciudad del Este	San Lorenzo	Capiata
+Peru	Lima	Arequipa	Callao	Trujillo
+the Philippines	Manila	Quezon City	Davao City	Caloocan
+Poland	Warsaw	Kraków	Łódź	Wrocław
+Portugal	Lisbon	Porto	Vila Nova de Gaia	Amadora
+Qatar	Doha	Al Wakrah	Al-Shahaniya	Mesaieed
+Romania	Bucharest	Cluj-Napoca	Timișoara	Iași
+Russia	Moscow	Saint Petersburg	Novosibirsk	Yekaterinburg
+Rwanda	Kigali	Butare	Gitarama 	Ruhenger
+Saint Kitts and Nevis	Basseterre	Fig Tree	Market Shop	Saint Paul's 
+Saint Lucia	Castries	Dennery	Gros Islet	Praslin
+Saint Vincent and the Grenadines	Kingstown	Georgetown	Byera Village	Biabou 
+Samoa	Apia	Asau	Mulifanua	Faleula
+San Marino	San Marino	Serravalle	Borgo Maggiore	Domagnano
+São Tomé and Príncipe	São Tomé	Santo Amaro	Neves	Santana
+Saudi Arabia	Riyadh	Jeddah	Mecca	Medina
+Senegal	Dakar	Pikine	Touba	Thies Nones
+Serbia	Belgrade	Novi Sad	Niš	Kragujevac
+Seychelles	Victoria	Anse Boileau 	Bel Ombre	Beau Vallon
+Sierra Leone	Freetown	Bo	Kenema	Koidu
+Singapore	Singapore	Kuala Lumpur	Pekan	Batam
+Slovakia	Bratislava	Košice	Prešov	Žilina
+Slovenia	Ljubljana	Maribor	Celje	Kranj
+the Solomon Islands	Honiara	Auki	Gizo	Buala
+Somalia	Mogadishu	Bosaso	Hargeisa	Galkayo
+South Africa	Pretoria	Cape Town	Durban	Johannesburg
+South Sudan	Juba	Malakal	Wau	Pajok
+Spain	Madrid	Barcelona	Valencia	Seville
+Sri Lanka	Sri Jayawardenepura Kotte	Colombo	Kandy	Negombo
+Sudan	Khartoum	Omdurman	Port Sudan	Kassala
+Suriname	Paramaribo	Lelydorp	Brokopondo	Nieuw Nickerie
+Swaziland	Mbabane	Manzini	Big Bend 	Malkerns
+Sweden	Stockholm	Gothenburg	Malmö	Uppsala
+Switzerland	Bern	Basel	Zürich	Geneva
+Syria	Damascus	Aleppo	Al-Raqqah	Homs
+Tajikistan	Dushanbe	Khujand	Kŭlob	Kurgan-Tyube
+Tanzania	Dodoma	Mwanza	Zanzibar	Arusha
+Thailand	Bangkok	Pak Kret	Hat Yai	Chiang Mai
+Togo	Lomé	Sokode	Kara	Atakpame
+Tonga	Nukuʻalofa	Neiafu	Haveluloto	Vaini
+Trinidad and Tobago	Port of Spain	Chaguanas	San Fernando	San Juan
+Tunisia	Tunis	Sfax	Sousse	Midoun
+Turkey	Ankara	Istanbul	Izmir	Bursa
+Turkmenistan	Ashgabat	Turkmenabat	Dasoguz	Mary
+Tuvalu	Funafuti	Savave Village	Motufoua School	Teava Village
+Uganda	Kampala	Gulu	Lira	Jinja
+Ukraine	Kiev	Odessa	Lviv	Kharkiv
+the United Arab Emirates	Abu Dhabi	Dubai	Sharjah	Al Ain
+the United Kingdom	London	Birmingham	Manchester	Leeds
+Uruguay	Montevideo	Salto	Rivera	Las Piedras
+Uzbekistan	Tashkent	Namangan	Samarkand	Andijan
+Vanuatu	Port Vila	Luganville	Norsup	Port-Olry
+Vatican City	Vatican City	Rome	Venice	Jerusalem
+Venezuela	Caracas	Maracaibo	Maturin	Maracay
+Vietnam	Hanoi	Ho Chi Minh City	Da Nang	Haiphong
+Yemen	Sana'a	Al Hudaydah	Ta`izz	Aden
+Zambia	Lusaka	Kitwe	Ndola	Kabwe
+Zimbabwe	Harare	Bulawayo	Chitungwiza	Mutare
