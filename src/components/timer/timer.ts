@@ -6,7 +6,7 @@ import { Events } from "ionic-angular";
   templateUrl: 'timer.html'
 })
 export class TimerComponent {
-  public timeLeft: number = 5;
+  public timeLeft: number = 60;
 
   constructor(public events: Events) {}
 

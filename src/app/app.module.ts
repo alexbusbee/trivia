@@ -4,7 +4,9 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PickGamePage } from '../pages/pick-game/pick-game';
 import { UsCapitalsPage } from '../pages/us-capitals/us-capitals';
-import { WorldCapitalsPage } from "../pages/world-capitals/world-capitals";
+import { WorldCapitalsEasyPage } from "../pages/world-capitals-easy/world-capitals-easy";
+import { WorldCapitalsMediumPage } from "../pages/world-capitals-medium/world-capitals-medium";
+import { WorldCapitalsHardPage } from "../pages/world-capitals-hard/world-capitals-hard";
 import { TriviaCardComponent } from '../components/trivia-card/trivia-card'
 import { TimerComponent } from "../components/timer/timer";
 import { Data } from '../providers/data';
@@ -18,7 +20,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     PickGamePage,
     UsCapitalsPage,
-    WorldCapitalsPage,
+    WorldCapitalsEasyPage,
+    WorldCapitalsMediumPage,
+    WorldCapitalsHardPage,
     TriviaCardComponent,
     TimerComponent,
   ],
@@ -31,7 +35,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     PickGamePage,
     UsCapitalsPage,
-    WorldCapitalsPage
+    WorldCapitalsEasyPage,
+    WorldCapitalsMediumPage,
+    WorldCapitalsHardPage,
+    TriviaCardComponent,
+    TimerComponent,
   ],
   providers: [
     StatusBar,

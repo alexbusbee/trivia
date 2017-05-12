@@ -1,0 +1,373 @@
+{
+    "questions": [
+        {
+            "question": "United States of America", 
+            "answers": [
+                {"answer": "Washington D.C.", "correct": true, "selected": false},
+                {"answer": "New York", "correct": false, "selected": false},
+                {"answer": "Chicago", "correct": false, "selected": false},
+                {"answer": "Philadelphia", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Argentina", 
+            "answers": [
+                {"answer": "Buenos Aires", "correct": true, "selected": false},
+                {"answer": "Córdoba", "correct": false, "selected": false},
+                {"answer": "Rosario", "correct": false, "selected": false},
+                {"answer": "Mendoza", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Australia", 
+            "answers": [
+                {"answer": "Canberra", "correct": true, "selected": false},
+                {"answer": "Sydney", "correct": false, "selected": false},
+                {"answer": "Melbourne", "correct": false, "selected": false},
+                {"answer": "Brisbane", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Brazil", 
+            "answers": [
+                {"answer": "Brasília", "correct": true, "selected": false},
+                {"answer": "São Paulo", "correct": false, "selected": false},
+                {"answer": "Rio de Janeiro", "correct": false, "selected": false},
+                {"answer": "Salvador", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Canada", 
+            "answers": [
+                {"answer": "Ottawa", "correct": true, "selected": false},
+                {"answer": "Toronto", "correct": false, "selected": false},
+                {"answer": "Montréal", "correct": false, "selected": false},
+                {"answer": "Vancouver", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "China", 
+            "answers": [
+                {"answer": "Beijing", "correct": true, "selected": false},
+                {"answer": "Shanghai", "correct": false, "selected": false},
+                {"answer": "Tianjin", "correct": false, "selected": false},
+                {"answer": "Guangzhou", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Djibouti", 
+            "answers": [
+                {"answer": "Djibouti", "correct": true, "selected": false},
+                {"answer": "Tadjoura", "correct": false, "selected": false},
+                {"answer": "Dikhil", "correct": false, "selected": false},
+                {"answer": "Ali Sabieh", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Egypt", 
+            "answers": [
+                {"answer": "Cairo", "correct": true, "selected": false},
+                {"answer": "Alexandria", "correct": false, "selected": false},
+                {"answer": "Luxor", "correct": false, "selected": false},
+                {"answer": "Giza", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "France", 
+            "answers": [
+                {"answer": "Paris", "correct": true, "selected": false},
+                {"answer": "Marseille", "correct": false, "selected": false},
+                {"answer": "Lyon", "correct": false, "selected": false},
+                {"answer": "Nice", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Germany", 
+            "answers": [
+                {"answer": "Berlin", "correct": true, "selected": false},
+                {"answer": "Munich", "correct": false, "selected": false},
+                {"answer": "Frankfurt", "correct": false, "selected": false},
+                {"answer": "Hamburg", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Greece", 
+            "answers": [
+                {"answer": "Athens", "correct": true, "selected": false},
+                {"answer": "Thebes", "correct": false, "selected": false},
+                {"answer": "Thessaloniki", "correct": false, "selected": false},
+                {"answer": "Sparta", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Guatemala", 
+            "answers": [
+                {"answer": "Guatemala City", "correct": true, "selected": false},
+                {"answer": "Mixco", "correct": false, "selected": false},
+                {"answer": "Villa Nueva", "correct": false, "selected": false},
+                {"answer": "Quetzaltenango", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "India",
+            "answers": [
+                {"answer": "New Delhi", "correct": true, "selected": false},
+                {"answer": "Mumbai", "correct": false, "selected": false},
+                {"answer": "Bengaluru", "correct": false, "selected": false},
+                {"answer": "Hyderabad", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Iran",
+            "answers": [
+                {"answer": "Tehran", "correct": true, "selected": false},
+                {"answer": "Isfahan", "correct": false, "selected": false},
+                {"answer": "Mashhad", "correct": false, "selected": false},
+                {"answer": "Qom", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Iraq",
+            "answers": [
+                {"answer": "Baghdad", "correct": true, "selected": false},
+                {"answer": "Basra", "correct": false, "selected": false},
+                {"answer": "Erbil", "correct": false, "selected": false},
+                {"answer": "Mosul", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Ireland",
+            "answers": [
+                {"answer": "Dublin", "correct": true, "selected": false},
+                {"answer": "Galway", "correct": false, "selected": false},
+                {"answer": "Cork", "correct": false, "selected": false},
+                {"answer": "Limerick", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Italy",
+            "answers": [
+                {"answer": "Rome", "correct": true, "selected": false},
+                {"answer": "Venice", "correct": false, "selected": false},
+                {"answer": "Milan", "correct": false, "selected": false},
+                {"answer": "Naples", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Jamaica",
+            "answers": [
+                {"answer": "Kingston", "correct": true, "selected": false},
+                {"answer": "Montego Bay", "correct": false, "selected": false},
+                {"answer": "Portmore", "correct": false, "selected": false},
+                {"answer": "Spanish Town", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Japan",
+            "answers": [
+                {"answer": "Tokyo", "correct": true, "selected": false},
+                {"answer": "Kyoto", "correct": false, "selected": false},
+                {"answer": "Osaka", "correct": false, "selected": false},
+                {"answer": "Yokohama", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Kenya",
+            "answers": [
+                {"answer": "Nairobi", "correct": true, "selected": false},
+                {"answer": "Mombasa", "correct": false, "selected": false},
+                {"answer": "Nakuru", "correct": false, "selected": false},
+                {"answer": "Malindi", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "North Korea",
+            "answers": [
+                {"answer": "Pyongyang", "correct": true, "selected": false},
+                {"answer": "Hamhung", "correct": false, "selected": false},
+                {"answer": "Sinuiju", "correct": false, "selected": false},
+                {"answer": "Kaesong", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "South Korea",
+            "answers": [
+                {"answer": "Seoul", "correct": true, "selected": false},
+                {"answer": "Busan", "correct": false, "selected": false},
+                {"answer": "Incheon", "correct": false, "selected": false},
+                {"answer": "Daegu", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Kuwait",
+            "answers": [
+                {"answer": "Kuwait City", "correct": true, "selected": false},
+                {"answer": "Al Jahra", "correct": false, "selected": false},
+                {"answer": "Salmiya", "correct": false, "selected": false},
+                {"answer": "Hawally", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Luxembourg",
+            "answers": [
+                {"answer": "Luxembourg", "correct": true, "selected": false},
+                {"answer": "Esch-sur-Alzette", "correct": false, "selected": false},
+                {"answer": "Differdange", "correct": false, "selected": false},
+                {"answer": "Dudelange", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Mexico",
+            "answers": [
+                {"answer": "Mexico City", "correct": true, "selected": false},
+                {"answer": "Ecatepec", "correct": false, "selected": false},
+                {"answer": "Guadalajara", "correct": false, "selected": false},
+                {"answer": "Puebla", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Monaco",
+            "answers": [
+                {"answer": "Monaco", "correct": true, "selected": false},
+                {"answer": "Nice", "correct": false, "selected": false},
+                {"answer": "Sanremo", "correct": false, "selected": false},
+                {"answer": "Cannes", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Netherlands",
+            "answers": [
+                {"answer": "Amsterdam", "correct": true, "selected": false},
+                {"answer": "Rotterdam", "correct": false, "selected": false},
+                {"answer": "Utrecht", "correct": false, "selected": false},
+                {"answer": "Eindhoven", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "New Zealand",
+            "answers": [
+                {"answer": "Wellington", "correct": true, "selected": false},
+                {"answer": "Auckland", "correct": false, "selected": false},
+                {"answer": "Christchurch", "correct": false, "selected": false},
+                {"answer": "Hamilton", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Nigeria",
+            "answers": [
+                {"answer": "Abuja", "correct": true, "selected": false},
+                {"answer": "Lagos", "correct": false, "selected": false},
+                {"answer": "Kano", "correct": false, "selected": false},
+                {"answer": "Ibadan", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Norway",
+            "answers": [
+                {"answer": "Oslo", "correct": true, "selected": false},
+                {"answer": "Bergen", "correct": false, "selected": false},
+                {"answer": "Trondheim", "correct": false, "selected": false},
+                {"answer": "Stavanger", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Portugal",
+            "answers": [
+                {"answer": "Lisbon", "correct": true, "selected": false},
+                {"answer": "Porto", "correct": false, "selected": false},
+                {"answer": "Vila Nova de Gaia", "correct": false, "selected": false},
+                {"answer": "Amadora", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Russia",
+            "answers": [
+                {"answer": "Moscow", "correct": true, "selected": false},
+                {"answer": "Saint Petersburg", "correct": false, "selected": false},
+                {"answer": "Novosibirsk", "correct": false, "selected": false},
+                {"answer": "Yekaterinburg", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "San Marino",
+            "answers": [
+                {"answer": "San Marino", "correct": true, "selected": false},
+                {"answer": "Serravalle", "correct": false, "selected": false},
+                {"answer": "Borgo Maggiore", "correct": false, "selected": false},
+                {"answer": "Domagnano", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Saudi Arabia",
+            "answers": [
+                {"answer": "Riyadh", "correct": true, "selected": false},
+                {"answer": "Jeddah", "correct": false, "selected": false},
+                {"answer": "Mecca", "correct": false, "selected": false},
+                {"answer": "Medina", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Singapore",
+            "answers": [
+                {"answer": "Singapore", "correct": true, "selected": false},
+                {"answer": "Kuala Lumpur", "correct": false, "selected": false},
+                {"answer": "Pekan", "correct": false, "selected": false},
+                {"answer": "Batam", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "South Africa",
+            "answers": [
+                {"answer": "Pretoria", "correct": true, "selected": false},
+                {"answer": "Cape Town", "correct": false, "selected": false},
+                {"answer": "Durban", "correct": false, "selected": false},
+                {"answer": "Johannesburg", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Spain",
+            "answers": [
+                {"answer": "Madrid", "correct": true, "selected": false},
+                {"answer": "Barcelona", "correct": false, "selected": false},
+                {"answer": "Valencia", "correct": false, "selected": false},
+                {"answer": "Seville", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Sweden",
+            "answers": [
+                {"answer": "Stockholm", "correct": true, "selected": false},
+                {"answer": "Gothenburg", "correct": false, "selected": false},
+                {"answer": "Malmö", "correct": false, "selected": false},
+                {"answer": "Uppsala", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Thailand",
+            "answers": [
+                {"answer": "Bangkok", "correct": true, "selected": false},
+                {"answer": "Pak Kret", "correct": false, "selected": false},
+                {"answer": "Hat Yai", "correct": false, "selected": false},
+                {"answer": "Chiang Mai", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "United Kingdom",
+            "answers": [
+                {"answer": "London", "correct": true, "selected": false},
+                {"answer": "Birmingham", "correct": false, "selected": false},
+                {"answer": "Manchester", "correct": false, "selected": false},
+                {"answer": "Leeds", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Vatican City",
+            "answers": [
+                {"answer": "Vatican City", "correct": true, "selected": false},
+                {"answer": "Rome", "correct": false, "selected": false},
+                {"answer": "Venice", "correct": false, "selected": false},
+                {"answer": "Jerusalem", "correct": false, "selected": false}
+            ]
+        }
+    ]
+}

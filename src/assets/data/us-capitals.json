@@ -449,15 +449,6 @@
                 {"answer": "Laramie", "correct": false, "selected": false},
                 {"answer": "Gillette", "correct": false, "selected": false}
             ]
-        },
-        {
-            "question": "The United States of America", 
-            "answers": [
-                {"answer": "Washington D.C.", "correct": true, "selected": false},
-                {"answer": "New York", "correct": false, "selected": false},
-                {"answer": "Chicago", "correct": false, "selected": false},
-                {"answer": "Philadelphia", "correct": false, "selected": false}
-            ]
         }
     ]
 }
