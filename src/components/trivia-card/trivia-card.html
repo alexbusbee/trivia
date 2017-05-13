@@ -1,13 +1,11 @@
 <ion-content>
-    
-    <timer></timer>
 
-    <h3>{{score}}</h3>
+    <h3 color="secondary">{{score}}</h3>
     
     <ion-slides #slides [options]="slideOptions">
  
         <ion-slide class="start-slide">
-            <button ion-button color="primary" (click)="start()">Start!</button>
+            <button ion-button (click)="start()">Start!</button>
         </ion-slide>
  
         <ion-slide *ngFor="let question of questions; let i = index;">
