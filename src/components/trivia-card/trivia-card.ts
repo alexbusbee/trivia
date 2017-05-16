@@ -57,14 +57,14 @@ export class TriviaCardComponent {
         this.slides.slideNext();
         let isLastSlide = this.slides.isEnd();
         if(TimerComponent && isLastSlide) {
-            this.timerComponent.stopTimer();
+          this.events.publish('timer:stop');
         }
     }
 
     start(){
         this.nextSlide();
         if(TimerComponent) {
-            this.timerComponent.startTimer();
+          this.events.publish('timer:start');
 
             this.events.subscribe('timer:done', () => {
                 let lastSlide = this.slides.length();

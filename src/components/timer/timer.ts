@@ -10,6 +10,15 @@ export class TimerComponent {
 
   constructor(public events: Events) {}
 
+    ngOnInit() {
+      this.events.subscribe('timer:start', () => {
+        this.startTimer();
+      })
+      this.events.subscribe('timer:stop', () => {
+        this.stopTimer();
+      })
+    };
+
     startTimer(){
       let timer = setInterval(() => {
         if (this.timeLeft != 0) {
