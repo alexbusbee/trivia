@@ -13,9 +13,11 @@ export class TimerComponent {
     ngOnInit() {
       this.events.subscribe('timer:start', () => {
         this.startTimer();
+        this.events.unsubscribe('timer:start');
       })
       this.events.subscribe('timer:stop', () => {
         this.stopTimer();
+        this.events.unsubscribe('timer:stop');
       })
     };
 

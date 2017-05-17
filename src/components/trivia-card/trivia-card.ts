@@ -50,7 +50,6 @@ export class TriviaCardComponent {
             this.questions = data;
  
         });
- 
     }
 
     nextSlide(){
@@ -69,6 +68,7 @@ export class TriviaCardComponent {
             this.events.subscribe('timer:done', () => {
                 let lastSlide = this.slides.length();
                 this.slides.slideTo(lastSlide, 100);
+                this.events.unsubscribe('timer:done');
             })
         }
     }
@@ -101,11 +101,5 @@ export class TriviaCardComponent {
         }
  
         return raw;
- 
-    }
- 
-    restartQuiz(){
-        this.score = 0;
-        this.slides.slideTo(1, 100);
     }
 }
