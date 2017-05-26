@@ -2,9 +2,9 @@
     timer {
         color: #fff;
         h2 {
-            background-color: #2ecc71;
+            background-color: color($colors, primary);
             margin: 0;
-            font-size: 8rem;
+            font-size: 9rem;
             align-content: center;
         }
     }

@@ -5,12 +5,12 @@
         <ion-slide class="start-slide">
             <h1>{{ title }}</h1>
                 <p>{{ description }}</p>
-            <button ion-button round outline strong outline (click)="start()">Start!</button>
+            <button ion-button round outline strong (click)="start()">Start!</button>
         </ion-slide>
  
         <ion-slide *ngFor="let question of questions; let i = index;">
  
-              <h1>{{question.question}}</h1>
+              <h2>{{question.question}}</h2>
  
             <ion-list no-lines radio-group>
  
@@ -27,9 +27,9 @@
         <ion-slide>
             <h2>Final Score: {{score}}</h2>
  
-            <button (click)="restartGame()" ion-button round outline strong color="primary">Play Again</button>
+            <button (click)="restartGame()" ion-button round outline strong>Play Again</button>
 
-            <button [navPush]="homePage" ion-button round outline strong color="primary">Quit</button>
+            <button [navPush]="homePage" ion-button round outline strong>Quit</button>
  
         </ion-slide>
  

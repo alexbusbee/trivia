@@ -14,3 +14,49 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+html {
+    font-size: 62.5%;
+}
+
+.ios, .md {
+    header {
+        color: color($colors, primary); 
+    }
+    button,
+    .item-button {
+        width: 99%
+    }
+    ion-navbar > button {
+        font-size: 3rem;
+        padding: 0;
+        width: auto;
+    }
+    .button-inner {
+        white-space: normal;
+    } 
+}
+
+.ios {
+    button,
+    .item-button {
+        font-size: 3rem;
+        padding: 3.4rem 2rem;
+        line-height: 3rem;
+    }
+}
+
+.md {
+    button,
+    .item-button {
+        font-size: 2.9rem;
+        padding: 4rem;
+        line-height: 3.5rem;
+        text-transform: none;
+    }
+    .back-button-icon-md {
+        font-size: 4rem;
+    }
+    .bar-button-default-md {
+        color: color($colors, secondary);
+    }
+}
