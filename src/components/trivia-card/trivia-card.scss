@@ -1,3 +1,20 @@
-trivia-card {
-
+.ios, .md {
+    trivia-card {
+        .item-button {
+            font-size: 3rem;
+            padding: 2rem;
+            width: 99%
+        }
+        .score,
+        .high-score {
+            bottom: 0;
+            position: fixed;
+        }
+        .score {
+            left: .5rem;
+        }
+        .high-score {
+            right: .5rem;
+        }
+    }
 }

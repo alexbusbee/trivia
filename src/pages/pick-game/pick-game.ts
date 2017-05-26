@@ -22,21 +22,30 @@ export class PickGamePage {
     let data = {
       usCapitals: {
         path: 'assets/data/us-capitals.json',
-        page: UsCapitalsPage
+        page: UsCapitalsPage,
+        title: 'U.S. Capitals',
+        description: 'You have 60 seconds to select the correct capital city for each state.'
       },
       worldCapitalsEasy: {
         path: 'assets/data/world-capitals-easy.json',
-        page: WorldCapitalsEasyPage
+        page: WorldCapitalsEasyPage,
+        title: 'World Capitals (Easy)',
+        description: 'You have 60 seconds to select the correct capital city for each country.'
       },
       worldCapitalsMedium: {
         path: 'assets/data/world-capitals-medium.json',
-        page: WorldCapitalsMediumPage
+        page: WorldCapitalsMediumPage,
+        title: 'World Capitals (Medium)',
+        description: 'You have 60 seconds to select the correct capital city for each country.'
       },
       worldCapitalsHard: {
         path: 'assets/data/world-capitals-hard.json',
-        page: WorldCapitalsHardPage
+        page: WorldCapitalsHardPage,
+        title: 'World Capitals (Hard)',
+        description: 'You have 60 seconds to select the correct capital city for each country.'
       }
     };
+    console.log(data[name]);
     this.navCtrl.push(data[name].page, data[name]);
   }
 

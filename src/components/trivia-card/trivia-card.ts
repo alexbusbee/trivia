@@ -1,6 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, NavParams, Events } from 'ionic-angular';
-import { UsCapitalsPage } from "../../pages/us-capitals/us-capitals";
 import { HomePage } from '../../pages/home/home';
 import { TimerComponent } from "../timer/timer";
 import { Data } from '../../providers/data';
@@ -11,12 +10,13 @@ import { Data } from '../../providers/data';
 })
 export class TriviaCardComponent {
     homePage = HomePage;
-    usCapitalsPage = UsCapitalsPage;
-    usTrivia = 'assets/data/us-capitals.json';
 
     @ViewChild('slides') slides: any;
     @ViewChild(TimerComponent) timerComponent: TimerComponent;
  
+    title: string;
+    description: string;
+
     hasAnswered: boolean = false;
     score: number = 0;
  
@@ -33,6 +33,9 @@ export class TriviaCardComponent {
     }
 
     ngOnInit() {
+        this.title = this.navParams.get('title');
+        this.description = this.navParams.get('description');
+
         let trivia = this.navParams.get('path');
         this.dataService.load(trivia).then((data) => {
  
@@ -101,5 +104,10 @@ export class TriviaCardComponent {
         }
  
         return raw;
+    }
+
+    restartGame() {
+        let game = this.navParams.get('data.page');
+        this.navCtrl.push(game, {});
     }
 }

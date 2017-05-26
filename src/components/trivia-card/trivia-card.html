@@ -1,23 +1,22 @@
 <ion-content>
-
-    <h3 ion-text color="secondary">{{score}}</h3>
     
     <ion-slides #slides [options]="slideOptions">
  
         <ion-slide class="start-slide">
-            <button ion-button (click)="start()">Start!</button>
+            <h1>{{ title }}</h1>
+                <p>{{ description }}</p>
+            <button ion-button round outline strong outline (click)="start()">Start!</button>
         </ion-slide>
  
         <ion-slide *ngFor="let question of questions; let i = index;">
  
-              <h3>{{question.question}}</h3>
+              <h1>{{question.question}}</h1>
  
             <ion-list no-lines radio-group>
  
                 <ion-item *ngFor="let answer of question.answers; let i = index;">
  
-                    <ion-label>{{i+1}}. {{answer.answer}}</ion-label>
-                    <ion-radio (click)="selectAnswer(answer, question)" [checked]="answer.selected" [disabled]="hasAnswered"></ion-radio>
+                    <button ion-button round outline strong (click)="selectAnswer(answer, question)" [disabled]="hasAnswered">{{answer.answer}}</button>
  
                 </ion-item>
  
@@ -28,12 +27,15 @@
         <ion-slide>
             <h2>Final Score: {{score}}</h2>
  
-            <button [navPush]="usCapitalsPage" ion-button full color="primary">Play Again</button>
+            <button (click)="restartGame()" ion-button round outline strong color="primary">Play Again</button>
 
-            <button [navPush]="homePage" ion-button full color="primary">Quit</button>
+            <button [navPush]="homePage" ion-button round outline strong color="primary">Quit</button>
  
         </ion-slide>
  
     </ion-slides>
+
+    <h3 class="score">Score: {{score}}</h3>
+    <h3 class="high-score">High Score: 100</h3>
  
 </ion-content>
