@@ -1,6 +1,5 @@
 {
   "name": "trivia",
   "app_id": "5e5aed2e",
-  "v2": true,
-  "typescript": true
+  "type": "ionic-angular"
 }

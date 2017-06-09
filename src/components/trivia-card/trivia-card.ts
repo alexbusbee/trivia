@@ -20,19 +20,16 @@ export class TriviaCardComponent {
     hasAnswered: boolean = false;
     score: number = 0;
  
-    slideOptions: any;
     questions: any;
     slideCount: number;
  
     constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: Data, public events: Events) {
- 
-        this.slideOptions = {
-            onlclickyExternal: true,
-        };
 
     }
 
     ngOnInit() {
+        this.slides.lockSwipes(true);
+
         this.title = this.navParams.get('title');
         this.description = this.navParams.get('description');
 
@@ -56,7 +53,10 @@ export class TriviaCardComponent {
     }
 
     nextSlide(){
+        this.slides.lockSwipes(false);
         this.slides.slideNext();
+        this.slides.lockSwipes(true);
+        
         let isLastSlide = this.slides.isEnd();
         if(TimerComponent && isLastSlide) {
           this.events.publish('timer:stop');
@@ -64,7 +64,10 @@ export class TriviaCardComponent {
     }
 
     start(){
+        this.slides.lockSwipes(false);
         this.nextSlide();
+        this.slides.lockSwipes(true);
+
         if(TimerComponent) {
           this.events.publish('timer:start');
 
