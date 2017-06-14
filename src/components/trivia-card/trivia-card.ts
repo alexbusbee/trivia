@@ -57,6 +57,7 @@ export class TriviaCardComponent {
         this.slides.slideNext();
         this.slides.lockSwipes(true);
         
+        // Stop timer when at score slide
         let isLastSlide = this.slides.isEnd();
         if(TimerComponent && isLastSlide) {
           this.events.publish('timer:stop');
@@ -71,30 +72,32 @@ export class TriviaCardComponent {
         if(TimerComponent) {
           this.events.publish('timer:start');
 
+            // If time runs out, stop timer and slide to score slide
             this.events.subscribe('timer:done', () => {
                 let lastSlide = this.slides.length();
+                this.slides.lockSwipes(false);
                 this.slides.slideTo(lastSlide, 100);
                 this.events.unsubscribe('timer:done');
             })
         }
     }
  
-    selectAnswer(answer, question){
- 
+    selectAnswer(answer){
         this.hasAnswered = true;
         answer.selected = true;
 
         if (answer.correct) {
             this.score++;
             this.nextSlide();
+            this.hasAnswered = false;
+            answer.selected = false;
         } else {
-            answer.correct = answer.selected;
             setTimeout(() => {
                 this.nextSlide();
+                this.hasAnswered = false;
+                answer.selected = false;
             }, 3000);
         }
-        this.hasAnswered = false;
-        answer.selected = false;
     }
  
     randomize(raw: any[]): any[] {

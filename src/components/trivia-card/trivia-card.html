@@ -1,6 +1,6 @@
 <ion-content>
     
-    <ion-slides #slides [options]="slideOptions">
+    <ion-slides #slides>
  
         <ion-slide class="start-slide">
             <h1>{{ title }}</h1>
@@ -16,7 +16,8 @@
  
                 <ion-item *ngFor="let answer of question.answers; let i = index;">
  
-                    <button ion-button round outline strong (click)="selectAnswer(answer, question)" [disabled]="hasAnswered">{{answer.answer}}</button>
+                    <ion-label ion-button round outline strong>{{answer.answer}}</ion-label>
+                    <ion-radio (click)="selectAnswer(answer)" [disabled]="hasAnswered"></ion-radio>
  
                 </ion-item>
  

@@ -1,5 +1,17 @@
 .ios, .md {
     trivia-card {
+        .radio-icon {
+            display: none;
+        }
+        ion-radio {
+            margin: 0 !important;
+        }
+        .item-radio {
+            margin-bottom: .5em;
+        }
+        ion-label {
+            border-bottom: 1px solid #fff !important;
+        }
         .score,
         .high-score {
             bottom: 0;
@@ -46,7 +58,7 @@
 .md {
     trivia-card {
         h2 {
-            margin-top: 4.5em;
+            margin-top: 4em;
             font-size: 3.5rem;
         }
         .slide-zoom {
