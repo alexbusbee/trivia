@@ -12,6 +12,9 @@ $font-path: "../assets/fonts";
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
 
+// Removes RTL language support
+$app-direction: ltr;
+
 $text-color: #fff;
 $background-color: #2ecc71;
 $toolbar-background: #2ecc71;
@@ -20,6 +23,8 @@ $button-ios-background-color: #fff;
 $button-md-background-color: #fff;
 $button-ios-margin: 1rem .2rem;
 $button-md-margin: 1rem .2rem;
+// $radio-ios-disabled-opacity: 0;
+// $radio-md-disabled-opacity: 0;
 
 // Named Color Variables
 // --------------------------------------------------

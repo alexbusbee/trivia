@@ -1,9 +1,12 @@
+import { BrowserModule } from "@angular/platform-browser";
+import { HttpModule } from "@angular/http";
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PickGamePage } from '../pages/pick-game/pick-game';
 import { UsCapitalsPage } from '../pages/us-capitals/us-capitals';
+import { UsNaturalizationPage } from '../pages/us-naturalization/us-naturalization';
 import { WorldCapitalsEasyPage } from "../pages/world-capitals-easy/world-capitals-easy";
 import { WorldCapitalsMediumPage } from "../pages/world-capitals-medium/world-capitals-medium";
 import { WorldCapitalsHardPage } from "../pages/world-capitals-hard/world-capitals-hard";
@@ -20,6 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     PickGamePage,
     UsCapitalsPage,
+    UsNaturalizationPage,
     WorldCapitalsEasyPage,
     WorldCapitalsMediumPage,
     WorldCapitalsHardPage,
@@ -27,6 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TimerComponent,
   ],
   imports: [
+    BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -35,6 +41,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     PickGamePage,
     UsCapitalsPage,
+    UsNaturalizationPage,
     WorldCapitalsEasyPage,
     WorldCapitalsMediumPage,
     WorldCapitalsHardPage,

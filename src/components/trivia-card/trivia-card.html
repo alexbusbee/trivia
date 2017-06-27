@@ -8,16 +8,16 @@
             <button ion-button round outline strong (click)="start()">Start!</button>
         </ion-slide>
  
-        <ion-slide *ngFor="let question of questions; let i = index;">
+        <ion-slide *ngFor="let question of questions">
  
               <h2>{{question.question}}</h2>
  
             <ion-list no-lines radio-group>
  
-                <ion-item *ngFor="let answer of question.answers; let i = index;">
+                <ion-item *ngFor="let answer of question.answers">
  
-                    <ion-label ion-button round outline strong>{{answer.answer}}</ion-label>
-                    <ion-radio (click)="selectAnswer(answer)" [disabled]="hasAnswered"></ion-radio>
+                    <ion-label ion-button round outline strong [class.reveal]="answer.correct">{{answer.answer}}</ion-label>
+                    <ion-radio (click)="selectAnswer(answer, question)" [disabled]="hasAnswered"></ion-radio>
  
                 </ion-item>
  

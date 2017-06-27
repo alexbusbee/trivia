@@ -1,0 +1,859 @@
+{
+    "questions": [
+        {
+            "question": "Supreme law of the land",
+            "answers": [
+                {"answer": "Constitution", "correct": true, "selected": false},
+                {"answer": "Bill of Rights", "correct": false, "selected": false},
+                {"answer": "Declaration of Independence", "correct": false, "selected": false},
+                {"answer": "Articles of Confederation", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "What the Constitution does NOT do",
+            "answers": [
+                {"answer": "Declared independence", "correct": true, "selected": false},
+                {"answer": "Sets up government", "correct": false, "selected": false},
+                {"answer": "Defines government", "correct": false, "selected": false},
+                {"answer": "Protects basic rights", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "First three words of the Constitution",
+            "answers": [
+                {"answer": "We the People", "correct": true, "selected": false},
+                {"answer": "When in the", "correct": false, "selected": false},
+                {"answer": "Four score and", "correct": false, "selected": false},
+                {"answer": "In order to", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "An amendment",
+            "answers": [
+                {"answer": "Change or addition", "correct": true, "selected": false},
+                {"answer": "Executive order", "correct": false, "selected": false},
+                {"answer": "A bill", "correct": false, "selected": false},
+                {"answer": "Judicial decree", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "First ten amendments",
+            "answers": [
+                {"answer": "Bill of Rights", "correct": true, "selected": false},
+                {"answer": "Preamble", "correct": false, "selected": false},
+                {"answer": "Constitution", "correct": false, "selected": false},
+                {"answer": "Articles", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a right from First Amendment",
+            "answers": [
+                {"answer": "Bear arms", "correct": true, "selected": false},
+                {"answer": "Speech", "correct": false, "selected": false},
+                {"answer": "Religion", "correct": false, "selected": false},
+                {"answer": "Press", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Number of amendments",
+            "answers": [
+                {"answer": 27, "correct": true, "selected": false},
+                {"answer": 13, "correct": false, "selected": false},
+                {"answer": 10, "correct": false, "selected": false},
+                {"answer": 22, "correct": false, "selected": false}
+            ]
+        }, 
+        {
+            "question": "What the Declaration of Independence did NOT do",
+            "answers": [
+                {"answer": "Freed the slaves", "correct": true, "selected": false},
+                {"answer": "Said the U.S. is free", "correct": false, "selected": false},
+                {"answer": "Declared independence", "correct": false, "selected": false},
+                {"answer": "Announced independence", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a right from Declaration of Independence",
+            "answers": [
+                {"answer": "Property", "correct": true, "selected": false},
+                {"answer": "Life", "correct": false, "selected": false},
+                {"answer": "Liberty", "correct": false, "selected": false},
+                {"answer": "Pursuit of Happiness", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Meaning of freedom of religion",
+            "answers": [
+                {"answer": "Practice any or no religion", "correct": true, "selected": false},
+                {"answer": "Practice any form of Christianity", "correct": false, "selected": false},
+                {"answer": "Must practice a religion", "correct": false, "selected": false}, 
+                {"answer": "Practice any religion but Islam", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "U.S. economic system",
+            "answers": [
+                {"answer": "Capitalism", "correct": true, "selected": false},
+                {"answer": "Socialism", "correct": false, "selected": false},
+                {"answer": "Communism", "correct": false, "selected": false},
+                {"answer": "Command", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a meaning of Rule of law",
+            "answers": [
+                {"answer": "Government is above the law", "correct": true, "selected": false},
+                {"answer": "Leaders must obey the law", "correct": false, "selected": false},
+                {"answer": "No one is above the law", "correct": false, "selected": false},
+                {"answer": "Everyone must follow the law", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a branch of government",
+            "answers": [
+                {"answer": "Press", "correct": true, "selected": false},
+                {"answer": "Legislative", "correct": false, "selected": false},
+                {"answer": "Executive", "correct": false, "selected": false},
+                {"answer": "Judicial", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Stops one branch of government from becoming too powerful",
+            "answers": [
+                {"answer": "Checks and balances", "correct": true, "selected": false},
+                {"answer": "Free press", "correct": false, "selected": false},
+                {"answer": "Electoral College", "correct": false, "selected": false},
+                {"answer": "Amendments", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Leader of executive branch",
+            "answers": [
+                {"answer": "President", "correct": true, "selected": false},
+                {"answer": "Chief Justice", "correct": false, "selected": false},
+                {"answer": "House Speaker", "correct": false, "selected": false},
+                {"answer": "Chief Justice", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Creator of federal laws",
+            "answers": [
+                {"answer": "Congress", "correct": true, "selected": false},
+                {"answer": "President", "correct": false, "selected": false},
+                {"answer": "Chief Justice", "correct": false, "selected": false},
+                {"answer": "Supreme Court", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Two parts of congress",
+            "answers": [
+                {"answer": "Senate and House", "correct": true, "selected": false},
+                {"answer": "Parliament and House", "correct": false, "selected": false},
+                {"answer": "Upper and Lower House", "correct": false, "selected": false},
+                {"answer": "Senate and Parliament", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Number of senators",
+            "answers": [
+                {"answer": 100, "correct": true, "selected": false},
+                {"answer": 50, "correct": false, "selected": false},
+                {"answer": 435, "correct": false, "selected": false},
+                {"answer": 25, "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Senate term length in years",
+            "answers": [
+                {"answer": 6, "correct": true, "selected": false},
+                {"answer": 2, "correct": false, "selected": false},
+                {"answer": 4, "correct": false, "selected": false},
+                {"answer": "Life", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Number of representatives",
+            "answers": [
+                {"answer": 435, "correct": true, "selected": false},
+                {"answer": 100, "correct": false, "selected": false},
+                {"answer": 50, "correct": false, "selected": false},
+                {"answer": 25, "correct": false, "selected": false}
+            ]
+        }, 
+        {
+            "question": "House term length in years",
+            "answers": [
+                {"answer": 2, "correct": true, "selected": false},
+                {"answer": 6, "correct": false, "selected": false},
+                {"answer": 4, "correct": false, "selected": false},
+                {"answer": "Life", "correct": false, "selected": false}
+            ]
+        }, 
+        {
+            "question": "Who a senator represents",
+            "answers": [
+                {"answer": "People of a state", "correct": true, "selected": false},
+                {"answer": "All Americans", "correct": false, "selected": false},
+                {"answer": "People of a district", "correct": false, "selected": false},
+                {"answer": "People aged 18 and older", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "How number of representatives is divided",
+            "answers": [
+                {"answer": "State population", "correct": true, "selected": false},
+                {"answer": "Two per state", "correct": false, "selected": false},
+                {"answer": "One per state", "correct": false, "selected": false},
+                {"answer": "Three per state", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Presidential term length in years",
+            "answers": [
+                {"answer": 4, "correct": true, "selected": false},
+                {"answer": 6, "correct": false, "selected": false},
+                {"answer": 2, "correct": false, "selected": false},
+                {"answer": "Life", "correct": false, "selected": false}
+            ]        
+        }, 
+        {
+            "question": "Month we vote for President",
+            "answers": [
+                {"answer": "November", "correct": true, "selected": false},
+                {"answer": "January", "correct": false, "selected": false},
+                {"answer": "December", "correct": false, "selected": false},
+                {"answer": "July", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Who becomes President if he or she can no longer serve",
+            "answers": [
+                {"answer": "Vice President", "correct": true, "selected": false},
+                {"answer": "House Speaker", "correct": false, "selected": false},
+                {"answer": "First lady", "correct": false, "selected": false},
+                {"answer": "Secretary of Defense", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Who becomes President if both he or she and Vice President can no longer serve",
+            "answers": [
+                {"answer": "House Speaker", "correct": true, "selected": false},
+                {"answer": "First lady", "correct": false, "selected": false},
+                {"answer": "Secretary of Defense", "correct": false, "selected": false},
+                {"answer": "Chief Justice", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Commander in Chief of the military",
+            "answers": [
+                {"answer": "President", "correct": true, "selected": false},
+                {"answer": "Secretary of Defense", "correct": false, "selected": false},
+                {"answer": "CIA Director", "correct": false, "selected": false},
+                {"answer": "Highest ranking general", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Who signs bills to become laws",
+            "answers": [
+                {"answer": "President", "correct": true, "selected": false},
+                {"answer": "House Speaker", "correct": false, "selected": false},
+                {"answer": "Senate Majority Leader", "correct": false, "selected": false},
+                {"answer": "VIce President", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Who vetoes bills",
+            "answers": [
+                {"answer": "President", "correct": true, "selected": false},
+                {"answer": "American people", "correct": false, "selected": false},
+                {"answer": "Vice President", "correct": false, "selected": false},
+                {"answer": "Chief Justice", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Role of the Cabinet",
+            "answers": [
+                {"answer": "Advise the President", "correct": true, "selected": false},
+                {"answer": "Make laws", "correct": false, "selected": false},
+                {"answer": "Law enforcement", "correct": false, "selected": false},
+                {"answer": "Judicial Review", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a cabinet-level position",
+            "answers": [
+                {"answer": "Press Secretary", "correct": true, "selected": false},
+                {"answer": "Secretary of Agriculture", "correct": false, "selected": false},
+                {"answer": "Vice President", "correct": false, "selected": false},
+                {"answer": "Attorney General", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT what the judicial branch does",
+            "answers": [
+                {"answer": "Pass laws", "correct": true, "selected": false},
+                {"answer": "Review laws", "correct": false, "selected": false},
+                {"answer": "Explain laws", "correct": false, "selected": false},
+                {"answer": "Resolves disputes", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Highest court",
+            "answers": [
+                {"answer": "Supreme Court", "correct": true, "selected": false},
+                {"answer": "Court of Appeals", "correct": false, "selected": false},
+                {"answer": "Federal Court", "correct": false, "selected": false},
+                {"answer": "First Circuit Court", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Number of justices on the Supreme Court",
+            "answers": [
+                {"answer": 9, "correct": true, "selected": false},
+                {"answer": 7, "correct": false, "selected": false},
+                {"answer": 5, "correct": false, "selected": false},
+                {"answer": 11, "correct": false, "selected": false}
+            ]
+        }, 
+        {
+            "question": "NOT a power of the federal government",
+            "answers": [
+                {"answer": "Approve land use", "correct": true, "selected": false},
+                {"answer": "Print money", "correct": false, "selected": false},
+                {"answer": "Declare War", "correct": false, "selected": false},
+                {"answer": "Make treaties", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a power of the states",
+            "answers": [
+                {"answer": "Print money", "correct": true, "selected": false},
+                {"answer": "Provide schooling", "correct": false, "selected": false},
+                {"answer": "Provide safety", "correct": false, "selected": false},
+                {"answer": "Approve land use", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Two major political parties",
+            "answers": [
+                {"answer": "Democratic and Republican", "correct": true, "selected": false},
+                {"answer": "Democratic and Conservative", "correct": false, "selected": false},
+                {"answer": "Liberal and Conservative", "correct": false, "selected": false},
+                {"answer": "Libertarian and Green", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT an amendment about who can vote",
+            "answers": [
+                {"answer": "Land-owning males", "correct": true, "selected": false},
+                {"answer": "Male citizen of any race", "correct": false, "selected": false},
+                {"answer": "No poll taxes", "correct": false, "selected": false},
+                {"answer": "Citizens 18 and older", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a right or responsibility of citizens",
+            "answers": [
+                {"answer": "Pay taxes", "correct": true, "selected": false},
+                {"answer": "Serve on a jury", "correct": false, "selected": false},
+                {"answer": "Vote", "correct": false, "selected": false},
+                {"answer": "Run for office", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a right of everyone",
+            "answers": [
+                {"answer": "Vote", "correct": true, "selected": false},
+                {"answer": "Freedom of speech", "correct": false, "selected": false},
+                {"answer": "Freedom of religion", "correct": false, "selected": false},
+                {"answer": "Freedom of assembly", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "What we show loyalty to during Pledge of Allegiance",
+            "answers": [
+                {"answer": "Flag", "correct": true, "selected": false},
+                {"answer": "Troops", "correct": false, "selected": false},
+                {"answer": "President", "correct": false, "selected": false},
+                {"answer": "Constitution", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a promise made when becoming a citizen",
+            "answers": [
+                {"answer": "Vote", "correct": true, "selected": false},
+                {"answer": "Military service if needed", "correct": false, "selected": false},
+                {"answer": "Obey the laws", "correct": false, "selected": false},
+                {"answer": "Give up loyalty to other countries", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Age to vote for president",
+            "answers": [
+                {"answer": 18, "correct": true, "selected": false},
+                {"answer": 21, "correct": false, "selected": false},
+                {"answer": 16, "correct": false, "selected": false},
+                {"answer": 25, "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a way to participate in democracy",
+            "answers": [
+                {"answer": "Pay taxes", "correct": true, "selected": false},
+                {"answer": "Vote", "correct": false, "selected": false},
+                {"answer": "Run for office", "correct": false, "selected": false},
+                {"answer": "Write to a newspaper", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Last day to submit federal income tax forms",
+            "answers": [
+                {"answer": "April 15", "correct": true, "selected": false},
+                {"answer": "June 30", "correct": false, "selected": false},
+                {"answer": "January 1", "correct": false, "selected": false},
+                {"answer": "December 31", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Age when all men register for selective service",
+            "answers": [
+                {"answer": 18, "correct": true, "selected": false},
+                {"answer": 14, "correct": false, "selected": false},
+                {"answer": 16, "correct": false, "selected": false},
+                {"answer": 28, "correct": false, "selected": false}
+            ]
+        },  
+        {
+            "question": "NOT a reason colonists came to America",
+            "answers": [
+                {"answer": "Exploration", "correct": true, "selected": false},
+                {"answer": "Religious freedom", "correct": false, "selected": false},
+                {"answer": "Economic opportunity", "correct": false, "selected": false},
+                {"answer": "Escape persecution", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Lived in America before Europeans",
+            "answers": [
+                {"answer": "Native Americans", "correct": true, "selected": false},
+                {"answer": "Africans", "correct": false, "selected": false},
+                {"answer": "Asians", "correct": false, "selected": false},
+                {"answer": "Aborigines", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "People sold in America as slaves",
+            "answers": [
+                {"answer": "Africans", "correct": true, "selected": false},
+                {"answer": "Native Americans", "correct": false, "selected": false},
+                {"answer": "Asians", "correct": false, "selected": false},
+                {"answer": "Aborigines", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a reason the colonists fought the British",
+            "answers": [
+                {"answer": "Conquer Canada", "correct": true, "selected": false},
+                {"answer": "Self-government", "correct": false, "selected": false},
+                {"answer": "High taxation", "correct": false, "selected": false},
+                {"answer": "Quartering", "correct": false, "selected": false}
+            ]
+        },     
+        {
+            "question": "Wrote the Declaration of Independence",
+            "answers": [
+                {"answer": "Thomas Jefferson", "correct": true, "selected": false},
+                {"answer": "George Washington", "correct": false, "selected": false},
+                {"answer": "Benjamin Franklin", "correct": false, "selected": false},
+                {"answer": "James Monroe", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Year the Declaration of Independence was adopted",
+            "answers": [
+                {"answer": 1776, "correct": true, "selected": false},
+                {"answer": 1781, "correct": false, "selected": false},
+                {"answer": 1801, "correct": false, "selected": false},
+                {"answer": 1787, "correct": false, "selected": false}
+            ]
+        }, 
+        {
+            "question": "Date the Declaration of Independence was adopted",
+            "answers": [
+                {"answer": "July 4", "correct": true, "selected": false},
+                {"answer": "July 1", "correct": false, "selected": false},
+                {"answer": "January 1", "correct": false, "selected": false},
+                {"answer": "December 30", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT one of original 13 states",
+            "answers": [
+                {"answer": "Vermont", "correct": true, "selected": false},
+                {"answer": "Georgia", "correct": false, "selected": false},
+                {"answer": "Rhode Island", "correct": false, "selected": false},
+                {"answer": "New Hampshire", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "What happened at Constitutional Convention",
+            "answers": [
+                {"answer": "Constitution was written", "correct": true, "selected": false},
+                {"answer": "Declared independence", "correct": false, "selected": false},
+                {"answer": "Elected president", "correct": false, "selected": false},
+                {"answer": "Declared war", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Year the Constitution was written",
+            "answers": [
+                {"answer": 1787, "correct": true, "selected": false},
+                {"answer": 1776, "correct": false, "selected": false},
+                {"answer": 1801, "correct": false, "selected": false},
+                {"answer": 1781, "correct": false, "selected": false}
+            ]
+        },     
+        {
+            "question": "NOT a writer of the Federalist Papers",
+            "answers": [
+                {"answer": "Jefferson", "correct": true, "selected": false},
+                {"answer": "Madison", "correct": false, "selected": false},
+                {"answer": "Jay", "correct": false, "selected": false},
+                {"answer": "Hamilton", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT something Benjamin Franklin is famous for",
+            "answers": [
+                {"answer": "Senator", "correct": true, "selected": false},
+                {"answer": "Writer of “Poor Richard’s Almanac”", "correct": false, "selected": false},
+                {"answer": "Diplomat", "correct": false, "selected": false},
+                {"answer": "First Postmaster General", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Father of Our Country",
+            "answers": [
+                {"answer": "Washington", "correct": true, "selected": false},
+                {"answer": "Jefferson", "correct": false, "selected": false},
+                {"answer": "Franklin", "correct": false, "selected": false},
+                {"answer": "Lincoln", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "First President",
+            "answers": [
+                {"answer": "Washington", "correct": true, "selected": false},
+                {"answer": "Jefferson", "correct": false, "selected": false},
+                {"answer": "Franklin", "correct": false, "selected": false},
+                {"answer": "Lincoln", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Territory purchased from France",
+            "answers": [
+                {"answer": "Louisiana", "correct": true, "selected": false},
+                {"answer": "Ohio", "correct": false, "selected": false},
+                {"answer": "California", "correct": false, "selected": false},
+                {"answer": "Alaska", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a war fought in 1800s",
+            "answers": [
+                {"answer": "World War I", "correct": true, "selected": false},
+                {"answer": "Mexican-American War", "correct": false, "selected": false},
+                {"answer": "Civil War", "correct": false, "selected": false},
+                {"answer": "Spanish-American War", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "War between North and South",
+            "answers": [
+                {"answer": "Civil War", "correct": true, "selected": false},
+                {"answer": "North South War", "correct": false, "selected": false},
+                {"answer": "Revolutionary War", "correct": false, "selected": false},
+                {"answer": "War of Succession", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a problem that led to the Civil War",
+            "answers": [
+                {"answer": "Taxation", "correct": true, "selected": false},
+                {"answer": "Slavery", "correct": true, "selected": false},
+                {"answer": "Economic reasons", "correct": false, "selected": false},
+                {"answer": "States' rights", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT an important thing that Abraham Lincoln did",
+            "answers": [
+                {"answer": "Led troops into battle", "correct": true, "selected": false},
+                {"answer": "Freed the slaves", "correct": false, "selected": false},
+                {"answer": "Saved the Union", "correct": false, "selected": false},
+                {"answer": "Led the U.S. during the Civil War", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "What the Emancipation Proclamation did",
+            "answers": [
+                {"answer": "Freed the slaves", "correct": true, "selected": false},
+                {"answer": "Let women vote", "correct": false, "selected": false},
+                {"answer": "Ended war with natives", "correct": false, "selected": false},
+                {"answer": "Declared independence", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "What Susan B. Anthony did",
+            "answers": [
+                {"answer": "Fought for women's rights", "correct": true, "selected": false},
+                {"answer": "Soldier", "correct": false, "selected": false},
+                {"answer": "Abolitionist", "correct": false, "selected": false},
+                {"answer": "Inventor", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a war fought in 1900s",
+            "answers": [
+                {"answer": "Spanish-American War", "correct": true, "selected": false},
+                {"answer": "Persian Gulf War", "correct": false, "selected": false},
+                {"answer": "Korean War", "correct": false, "selected": false},
+                {"answer": "World War I", "correct": false, "selected": false}
+            ]
+        }, 
+        {
+            "question": "President during World War I",
+            "answers": [
+                {"answer": "Woodrow Wilson", "correct": true, "selected": false},
+                {"answer": "Franklin Roosevelt", "correct": false, "selected": false},
+                {"answer": "George Washington", "correct": false, "selected": false},
+                {"answer": "Dwight Eisenhower", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "President during the Great Depression and World War II",
+            "answers": [
+                {"answer": "Franklin Roosevelt", "correct": true, "selected": false},
+                {"answer": "Woodrow Wilson", "correct": false, "selected": false},
+                {"answer": "George Washington", "correct": false, "selected": false},
+                {"answer": "Dwight Eisenhower", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Who the United States fought in World War II",
+            "answers": [
+                {"answer": "Japan, Germany and Italy", "correct": true, "selected": false},
+                {"answer": "Germany", "correct": false, "selected": false},
+                {"answer": "U.S.S.R", "correct": false, "selected": false},
+                {"answer": "Japan", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "War General Eisenhower served in",
+            "answers": [
+                {"answer": "World War II", "correct": true, "selected": false},
+                {"answer": "World War I", "correct": false, "selected": false},
+                {"answer": "Korean War", "correct": false, "selected": false},
+                {"answer": "Vietnam War", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Main concern of the U.S. during the Cold War",
+            "answers": [
+                {"answer": "Communism", "correct": true, "selected": false},
+                {"answer": "Fascism", "correct": false, "selected": false},
+                {"answer": "Nazism", "correct": false, "selected": false},
+                {"answer": "Terrorism", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Movement to end racial discrimination",
+            "answers": [
+                {"answer": "Civil Rights Movement", "correct": true, "selected": false},
+                {"answer": "Abolition", "correct": false, "selected": false},
+                {"answer": "Prohibition", "correct": false, "selected": false},
+                {"answer": "Equal Rights Movement", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "What Martin Luther King, Jr. did",
+            "answers": [
+                {"answer": "Civil rights leader", "correct": true, "selected": false},
+                {"answer": "Writer", "correct": false, "selected": false},
+                {"answer": "Soldier", "correct": false, "selected": false},
+                {"answer": "Abolitionist", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Major event on September 11, 2001",
+            "answers": [
+                {"answer": "Terrorism attack", "correct": true, "selected": false},
+                {"answer": "Economic crash", "correct": false, "selected": false},
+                {"answer": "Hurricane", "correct": false, "selected": false},
+                {"answer": "Flu outbreak", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT an American Indian tribe",
+            "answers": [
+                {"answer": "Nahuatl", "correct": true, "selected": false},
+                {"answer": "Cherokee", "correct": false, "selected": false},
+                {"answer": "Seminole", "correct": false, "selected": false},
+                {"answer": "Inuit", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT an American Indian tribe",
+            "answers": [
+                {"answer": "Yucatec", "correct": true, "selected": false},
+                {"answer": "Navajo", "correct": false, "selected": false},
+                {"answer": "Sioux", "correct": false, "selected": false},
+                {"answer": "Apache", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT an American Indian tribe",
+            "answers": [
+                {"answer": "Mixtec", "correct": true, "selected": false},
+                {"answer": "Iroquois", "correct": false, "selected": false},
+                {"answer": "Lakota", "correct": false, "selected": false},
+                {"answer": "Hopi", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT an American Indian tribe",
+            "answers": [
+                {"answer": "Otomi", "correct": true, "selected": false},
+                {"answer": "Choctaw", "correct": false, "selected": false},
+                {"answer": "Pueblo", "correct": false, "selected": false},
+                {"answer": "Arawak", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT an American Indian tribe",
+            "answers": [
+                {"answer": "Zapotec", "correct": true, "selected": false},
+                {"answer": "Creek", "correct": false, "selected": false},
+                {"answer": "Teton", "correct": false, "selected": false},
+                {"answer": "Crow", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Two longest rivers",
+            "answers": [
+                {"answer": "Mississippi and Missouri", "correct": true, "selected": false},
+                {"answer": "Mississippi and Rio Grande", "correct": false, "selected": false},
+                {"answer": "Mississippi and Colorado", "correct": false, "selected": false},
+                {"answer": "Missouri and Ohio", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Ocean on the West Coast",
+            "answers": [
+                {"answer": "Pacific", "correct": true, "selected": false},
+                {"answer": "Atlantic", "correct": false, "selected": false},
+                {"answer": "Gulf", "correct": false, "selected": false},
+                {"answer": "Arctic", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Ocean on the East Coast",
+            "answers": [
+                {"answer": "Atlantic", "correct": true, "selected": false},
+                {"answer": "Pacific", "correct": false, "selected": false},
+                {"answer": "Gulf", "correct": false, "selected": false},
+                {"answer": "Arctic", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a U.S. territory",
+            "answers": [
+                {"answer": "Philippines", "correct": true, "selected": false},
+                {"answer": "Northern Mariana Islands", "correct": false, "selected": false},
+                {"answer": "Guam", "correct": false, "selected": false},
+                {"answer": "Puerto Rico", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a state that borders Canada",
+            "answers": [
+                {"answer": "Wisconsin", "correct": true, "selected": false},
+                {"answer": "Pennsylvania", "correct": false, "selected": false},
+                {"answer": "Michigan", "correct": false, "selected": false},
+                {"answer": "Idaho", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a state that borders Mexico",
+            "answers": [
+                {"answer": "Louisiana", "correct": true, "selected": false},
+                {"answer": "Texas", "correct": false, "selected": false},
+                {"answer": "Arizona", "correct": false, "selected": false},
+                {"answer": "California", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Capital of the U.S.",
+            "answers": [
+                {"answer": "Washington, D.C.", "correct": true, "selected": false},
+                {"answer": "New York City", "correct": false, "selected": false},
+                {"answer": "Boston", "correct": false, "selected": false},
+                {"answer": "Philadelphia", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Location of the Statue of Liberty",
+            "answers": [
+                {"answer": "New York Harbor", "correct": true, "selected": false},
+                {"answer": "Ellis Island", "correct": false, "selected": false},
+                {"answer": "Boston Harbor", "correct": false, "selected": false},
+                {"answer": "Philadelphia Harbor", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Why the flag has 13 stripes",
+            "answers": [
+                {"answer": "13 colonies", "correct": true, "selected": false},
+                {"answer": "13 Founding Fathers", "correct": false, "selected": false},
+                {"answer": "13 battles fought", "correct": false, "selected": false},
+                {"answer": "First 13 presidents", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Why the flag has 50 stars",
+            "answers": [
+                {"answer": "50 states", "correct": true, "selected": false},
+                {"answer": "50 Founding Fathers", "correct": false, "selected": false},
+                {"answer": "50 colonies", "correct": false, "selected": false},
+                {"answer": "50 senators", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "Name of the national anthem",
+            "answers": [
+                {"answer": "The Star-Spangled Banner", "correct": true, "selected": false},
+                {"answer": "America the Beautiful", "correct": false, "selected": false},
+                {"answer": "Sea to Shinning Sea", "correct": false, "selected": false},
+                {"answer": "Yankee Doodle", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "When we celebrate Independence Day",
+            "answers": [
+                {"answer": "July 4", "correct": true, "selected": false},
+                {"answer": "December 31", "correct": false, "selected": false},
+                {"answer": "January 1", "correct": false, "selected": false},
+                {"answer": "August 1", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "question": "NOT a national U.S. holiday",
+            "answers": [
+                {"answer": "May Day", "correct": true, "selected": false},
+                {"answer": "New Year’s Day", "correct": false, "selected": false},
+                {"answer": "Martin Luther King, Jr. Day", "correct": false, "selected": false},
+                {"answer": "Columbus Day", "correct": false, "selected": false}
+            ]
+        }
+    ]
+}

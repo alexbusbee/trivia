@@ -12,6 +12,13 @@
         ion-label {
             border-bottom: 1px solid #fff !important;
         }
+        .item-radio-checked.item-md ion-label,
+        .item-radio-checked.item-ios ion-label {
+            color: #fff;
+        }
+        .reveal {
+            opacity: 1;
+        }
         .score,
         .high-score {
             bottom: 0;

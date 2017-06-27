@@ -82,7 +82,7 @@ export class TriviaCardComponent {
         }
     }
  
-    selectAnswer(answer){
+    selectAnswer(answer, question){
         this.hasAnswered = true;
         answer.selected = true;
 
