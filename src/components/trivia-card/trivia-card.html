@@ -6,6 +6,7 @@
             <h1>{{ title }}</h1>
                 <p>{{ description }}</p>
             <button ion-button round outline strong (click)="start()">Start!</button>
+            <button ion-button round outline strong (click)="practice()">Practice</button>
         </ion-slide>
  
         <ion-slide *ngFor="let question of questions">
@@ -29,7 +30,6 @@
             <h2>Final Score: {{score}}</h2>
  
             <button (click)="restartGame()" ion-button round outline strong>Play Again</button>
-            <button (click)="review()" ion-button round outline strong>Review Answers</button>
             <button (click)="quit()" ion-button round outline strong>Quit</button>
  
         </ion-slide>

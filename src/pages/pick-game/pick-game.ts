@@ -26,31 +26,31 @@ export class PickGamePage {
         path: 'assets/data/us-capitals.json',
         page: UsCapitalsPage,
         title: 'U.S. Capitals',
-        description: 'You have 60 seconds to select the correct capital city for each state.'
+        description: 'Select the correct capital city for each state.'
       },
       usNaturalization: {
         path: 'assets/data/us-naturalization.json',
         page: UsNaturalizationPage,
         title: 'U.S. Naturalization',
-        description: 'You have 60 seconds to select the correct answer for each question from the U.S. Naturalization civic test.'
+        description: 'Select the correct answer for each question from the U.S. Naturalization civic test.'
       },
       worldCapitalsEasy: {
         path: 'assets/data/world-capitals-easy.json',
         page: WorldCapitalsEasyPage,
         title: 'World Capitals (Easy)',
-        description: 'You have 60 seconds to select the correct capital city for each country.'
+        description: 'Select the correct capital city for each country.'
       },
       worldCapitalsMedium: {
         path: 'assets/data/world-capitals-medium.json',
         page: WorldCapitalsMediumPage,
         title: 'World Capitals (Medium)',
-        description: 'You have 60 seconds to select the correct capital city for each country.'
+        description: 'Select the correct capital city for each country.'
       },
       worldCapitalsHard: {
         path: 'assets/data/world-capitals-hard.json',
         page: WorldCapitalsHardPage,
         title: 'World Capitals (Hard)',
-        description: 'You have 60 seconds to select the correct capital city for each country.'
+        description: 'Select the correct capital city for each country.'
       }
     };
     

@@ -74,17 +74,21 @@ export class TriviaCardComponent {
         this.nextSlide();
         this.slides.lockSwipes(true);
 
-        if(TimerComponent) {
-          this.events.publish('timer:start');
+        this.events.publish('timer:start');
 
-            // If time runs out, stop timer and slide to score slide
-            this.events.subscribe('timer:done', () => {
-                let lastSlide = this.slides.length();
-                this.slides.lockSwipes(false);
-                this.slides.slideTo(lastSlide, 100);
-                this.events.unsubscribe('timer:done');
-            })
-        }
+        // If time runs out, stop timer and slide to score slide
+        this.events.subscribe('timer:done', () => {
+            let lastSlide = this.slides.length();
+            this.slides.lockSwipes(false);
+            this.slides.slideTo(lastSlide, 100);
+            this.events.unsubscribe('timer:done');
+        })
+    }
+
+    practice() {
+        this.slides.lockSwipes(false);
+        this.slides.slideNext();
+        this.slides.lockSwipes(true);
     }
  
     selectAnswer(answer, question){
@@ -125,11 +129,6 @@ export class TriviaCardComponent {
         this.slides.lockSwipes(true);
 
         this.score = 0;
-    }
-
-    review() {
-        this.slides.lockSwipes(false);
-        this.slides.slideTo(1, 100);
     }
 
     quit() {
