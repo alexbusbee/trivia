@@ -28,7 +28,7 @@
             ]
         },
         {
-            "question": "Alabama",
+            "question": "Arkansas",
             "answers": [
                 {"answer": "Little Rock", "correct": true, "selected": false},
                 {"answer": "Fort Smith", "correct": false, "selected": false},

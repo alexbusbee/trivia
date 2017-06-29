@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { PickGamePage } from '../pick-game/pick-game';
-
 import { NavController } from 'ionic-angular';
+
+import { PickGamePage } from '../pick-game/pick-game';
 
 @Component({
   selector: 'page-home',

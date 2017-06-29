@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { NavController, NavParams } from 'ionic-angular';
+
 import { UsCapitalsPage } from '../us-capitals/us-capitals';
 import { UsNaturalizationPage } from '../us-naturalization/us-naturalization';
 import { WorldCapitalsEasyPage } from "../world-capitals-easy/world-capitals-easy";
 import { WorldCapitalsMediumPage } from "../world-capitals-medium/world-capitals-medium";
 import { WorldCapitalsHardPage } from "../world-capitals-hard/world-capitals-hard";
-
-import { NavController, NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-pick-game',

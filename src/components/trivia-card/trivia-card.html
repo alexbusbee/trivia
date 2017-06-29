@@ -29,14 +29,14 @@
             <h2>Final Score: {{score}}</h2>
  
             <button (click)="restartGame()" ion-button round outline strong>Play Again</button>
-
-            <button [navPush]="homePage" ion-button round outline strong>Quit</button>
+            <button (click)="review()" ion-button round outline strong>Review Answers</button>
+            <button (click)="quit()" ion-button round outline strong>Quit</button>
  
         </ion-slide>
  
     </ion-slides>
 
     <h3 class="score">Score: {{score}}</h3>
-    <h3 class="high-score">High Score: 100</h3>
+    <!--<h3 class="high-score">High Score: 100</h3>-->
  
 </ion-content>

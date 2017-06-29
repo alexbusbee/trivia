@@ -16,6 +16,7 @@ export class TriviaCardComponent {
  
     title: string;
     description: string;
+    path: string;
 
     hasAnswered: boolean = false;
     score: number = 0;
@@ -23,34 +24,38 @@ export class TriviaCardComponent {
     questions: any;
     slideCount: number;
  
-    constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: Data, public events: Events) {
+    constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: Data, public events: Events) {}
 
-    }
-
+// ionViewWillEnter to work with slides instead of pages?
     ngOnInit() {
         this.slides.lockSwipes(true);
 
+        this.loadTrivia()
+    }
+
+    // Load and shuffle trivia questions and answers
+    loadTrivia() {
         this.title = this.navParams.get('title');
         this.description = this.navParams.get('description');
 
         let trivia = this.navParams.get('path');
         this.dataService.load(trivia).then((data) => {
- 
+
             data.map((question) => {
- 
+
                 let originalQuestionOrder = data;
                 data = this.randomize(originalQuestionOrder);
- 
+
                 let originalAnswerOrder = question.answers;
                 question.answers = this.randomize(originalAnswerOrder);
                 return question;
 
             });     
- 
+
             this.questions = data;
- 
         });
     }
+
 
     nextSlide(){
         this.slides.lockSwipes(false);
@@ -96,7 +101,7 @@ export class TriviaCardComponent {
                 this.nextSlide();
                 this.hasAnswered = false;
                 answer.selected = false;
-            }, 3000);
+            }, 2000);
         }
     }
  
@@ -113,7 +118,22 @@ export class TriviaCardComponent {
     }
 
     restartGame() {
-        let game = this.navParams.get('data.page');
-        this.navCtrl.push(game, {});
+        this.loadTrivia()
+
+        this.slides.lockSwipes(false);
+        this.slides.slideTo(0, 100);
+        this.slides.lockSwipes(true);
+
+        this.score = 0;
+    }
+
+    review() {
+        this.slides.lockSwipes(false);
+        this.slides.slideTo(1, 100);
+    }
+
+    quit() {
+        this.dataService.data = false;
+        this.navCtrl.push(HomePage);
     }
 }

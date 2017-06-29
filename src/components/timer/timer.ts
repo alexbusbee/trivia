@@ -6,22 +6,21 @@ import { Events } from "ionic-angular";
   templateUrl: 'timer.html'
 })
 export class TimerComponent {
-  public timeLeft: number = 60;
+  public timeLeft: number;
 
   constructor(public events: Events) {}
 
     ngOnInit() {
       this.events.subscribe('timer:start', () => {
         this.startTimer();
-        this.events.unsubscribe('timer:start');
       })
       this.events.subscribe('timer:stop', () => {
         this.stopTimer();
-        this.events.unsubscribe('timer:stop');
       })
     };
 
     startTimer(){
+      this.timeLeft = 60;
       let timer = setInterval(() => {
         if (this.timeLeft != 0) {
           this.timeLeft -= 1;
