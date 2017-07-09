@@ -12,6 +12,7 @@ export class TriviaCardComponent {
     homePage = HomePage;
 
     @ViewChild('slides') slides: any;
+    @ViewChild('scoreCounter') scoreCounter: any;
     @ViewChild(TimerComponent) timerComponent: TimerComponent;
  
     title: string;
@@ -86,6 +87,10 @@ export class TriviaCardComponent {
     }
 
     practice() {
+        // Don't keep score
+        this.scoreCounter = null;
+        this.score = null;
+
         this.slides.lockSwipes(false);
         this.slides.slideNext();
         this.slides.lockSwipes(true);
@@ -96,7 +101,11 @@ export class TriviaCardComponent {
         answer.selected = true;
 
         if (answer.correct) {
-            this.score++;
+            // Check if keeping score
+            if (this.scoreCounter) {
+                this.score++;
+            }
+
             this.nextSlide();
             this.hasAnswered = false;
             answer.selected = false;
