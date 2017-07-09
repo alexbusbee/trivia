@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController, NavParams, Events } from 'ionic-angular';
+import { Storage } from "@ionic/storage";
+import { NavController, NavParams, Events, AlertController } from 'ionic-angular';
 import { HomePage } from '../../pages/home/home';
 import { TimerComponent } from "../timer/timer";
 import { Data } from '../../providers/data';
@@ -18,16 +19,18 @@ export class TriviaCardComponent {
     title: string;
     description: string;
     path: string;
+    key: string;
 
     hasAnswered: boolean = false;
     score: number = 0;
+    highScore: number;
  
     questions: any;
     slideCount: number;
  
-    constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: Data, public events: Events) {}
+    constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: Data, public events: Events, private storage: Storage, private alertCtrl: AlertController) {}
 
-// ionViewWillEnter to work with slides instead of pages?
+    // ionViewWillEnter to work with slides instead of pages?
     ngOnInit() {
         this.slides.lockSwipes(true);
 
@@ -55,6 +58,17 @@ export class TriviaCardComponent {
 
             this.questions = data;
         });
+
+        // Get high score from local storage
+        let key = this.title + 'highScore';
+        this.storage.get(key).then((val) => {
+            if (val === null) {
+                this.highScore = 0;
+            } else {
+                this.highScore = val;
+            }
+        });
+
     }
 
 
@@ -63,11 +77,15 @@ export class TriviaCardComponent {
         this.slides.slideNext();
         this.slides.lockSwipes(true);
         
-        // Stop timer when at score slide
         let isLastSlide = this.slides.isEnd();
-        if(TimerComponent && isLastSlide) {
-          this.events.publish('timer:stop');
-        }
+            if(TimerComponent && isLastSlide) {
+                
+                // Stop timer when at score slide
+                this.events.publish('timer:stop');
+
+                // Check if new high score and update
+                this.updateHighScore();
+            }
     }
 
     start(){
@@ -83,6 +101,9 @@ export class TriviaCardComponent {
             this.slides.lockSwipes(false);
             this.slides.slideTo(lastSlide, 100);
             this.events.unsubscribe('timer:done');
+
+            // Check if new high score and update
+            this.updateHighScore();
         })
     }
 
@@ -128,6 +149,22 @@ export class TriviaCardComponent {
         }
  
         return raw;
+    }
+
+    updateHighScore() {
+        if (this.score > this.highScore) {
+            let alert = this.alertCtrl.create({
+                title: 'New High Score!',
+                buttons: ['Ok']
+            });
+            alert.present();
+
+            this.highScore = this.score;
+
+            this.title = this.navParams.get('title');
+            let key = this.title + 'highScore';
+            this.storage.set(key, this.score);
+        } 
     }
 
     restartGame() {
