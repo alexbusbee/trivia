@@ -6,6 +6,7 @@ import { UsNaturalizationPage } from '../us-naturalization/us-naturalization';
 import { WorldCapitalsEasyPage } from "../world-capitals-easy/world-capitals-easy";
 import { WorldCapitalsMediumPage } from "../world-capitals-medium/world-capitals-medium";
 import { WorldCapitalsHardPage } from "../world-capitals-hard/world-capitals-hard";
+import { HomePage } from "../home/home";
 
 @Component({
   selector: 'page-pick-game',
@@ -17,6 +18,7 @@ export class PickGamePage {
   worldCapitalsEasyPage = WorldCapitalsEasyPage;
   worldCapitalsMediumPage = WorldCapitalsMediumPage;
   worldCapitalsHardPage = WorldCapitalsHardPage;
+  homePage = HomePage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 

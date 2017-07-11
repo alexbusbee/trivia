@@ -20,7 +20,7 @@ export class TimerComponent {
     };
 
     startTimer(){
-      this.timeLeft = 6;
+      this.timeLeft = 10;
       let timer = setInterval(() => {
         if (this.timeLeft != 0) {
           this.timeLeft -= 1;

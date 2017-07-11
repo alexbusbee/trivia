@@ -1,16 +1,11 @@
-<ion-header>
-
-  <ion-navbar>
-    <ion-title></ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
 <ion-content padding>
   <button ion-button round outline strong (click)="launchGamePage('usCapitals')">U.S. Capitals</button>
   <button ion-button round outline strong (click)="launchGamePage('usNaturalization')">U.S. Naturalization</button>
   <button ion-button round outline strong (click)="launchGamePage('worldCapitalsEasy')">World Capitals (Easy)</button>
   <button ion-button round outline strong (click)="launchGamePage('worldCapitalsMedium')">World Capitals (Medium)</button>
   <button ion-button round outline strong (click)="launchGamePage('worldCapitalsHard')">World Capitals (Hard)</button>
+  
+  <hr>
+
+  <button ion-button round outline strong [navPush]="homePage">Home</button>
 </ion-content>

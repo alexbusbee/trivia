@@ -1,7 +1,10 @@
 import { Component, ViewChild } from '@angular/core';
 import { Storage } from "@ionic/storage";
 import { NavController, NavParams, Events, AlertController } from 'ionic-angular';
+
 import { HomePage } from '../../pages/home/home';
+import { PickGamePage } from "../../pages/pick-game/pick-game";
+
 import { TimerComponent } from "../timer/timer";
 import { Data } from '../../providers/data';
 
@@ -11,6 +14,7 @@ import { Data } from '../../providers/data';
 })
 export class TriviaCardComponent {
     homePage = HomePage;
+    pickGamePage = PickGamePage;
 
     @ViewChild('slides') slides: any;
     @ViewChild('scoreCounter') scoreCounter: any;
@@ -20,6 +24,9 @@ export class TriviaCardComponent {
     description: string;
     path: string;
     key: string;
+
+    gameMode: boolean = true;
+    practiceMode: boolean = false;
 
     hasAnswered: boolean = false;
     score: number = 0;
@@ -78,7 +85,7 @@ export class TriviaCardComponent {
         this.slides.lockSwipes(true);
         
         let isLastSlide = this.slides.isEnd();
-            if(TimerComponent && isLastSlide) {
+            if (TimerComponent && isLastSlide) {
                 
                 // Stop timer when at score slide
                 this.events.publish('timer:stop');
@@ -95,6 +102,15 @@ export class TriviaCardComponent {
 
         this.events.publish('timer:start');
 
+        // Add to count if free player
+        this.storage.get('plays').then((val) => {
+            if (val === null) {
+                val = 1;
+            } else {
+                val++;
+            }
+        });
+
         // If time runs out, stop timer and slide to score slide
         this.events.subscribe('timer:done', () => {
             let lastSlide = this.slides.length();
@@ -108,9 +124,10 @@ export class TriviaCardComponent {
     }
 
     practice() {
-        // Don't keep score
-        this.scoreCounter = null;
-        this.score = null;
+        // Show Quit button
+        this.practiceMode = !this.practiceMode;
+        // Hide score bar
+        this.gameMode = !this.gameMode;
 
         this.slides.lockSwipes(false);
         this.slides.slideNext();
@@ -165,6 +182,11 @@ export class TriviaCardComponent {
             let key = this.title + 'highScore';
             this.storage.set(key, this.score);
         } 
+    }
+
+    back() {
+        this.dataService.data = false;
+        this.navCtrl.push(PickGamePage);
     }
 
     restartGame() {

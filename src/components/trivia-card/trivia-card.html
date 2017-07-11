@@ -7,6 +7,7 @@
                 <p>{{ description }}</p>
             <button ion-button round outline strong (click)="start()">Start!</button>
             <button ion-button round outline strong (click)="practice()">Practice</button>
+            <button ion-button round outline strong (click)="back()">Back</button>
         </ion-slide>
  
         <ion-slide *ngFor="let question of questions">
@@ -36,7 +37,14 @@
  
     </ion-slides>
 
-    <h3 class="score" #scoreCounter>Score: {{score}}</h3>
-    <h3 class="high-score">High Score: {{highScore}}</h3>
+    <div class="score-bar" *ngIf="gameMode">
+        <h3 class="score" #scoreCounter>Score: {{score}}</h3>
+        <h3 class="high-score">High Score: {{highScore}}</h3>
+    </div>
  
+    <!-- Button for Practice Mode -->
+    <ion-fab class="quit" *ngIf="practiceMode">
+        <button ion-fab (click)="quit()"><strong>Quit</strong></button>
+    </ion-fab>
+
 </ion-content>
