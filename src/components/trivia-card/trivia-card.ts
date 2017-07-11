@@ -2,7 +2,6 @@ import { Component, ViewChild } from '@angular/core';
 import { Storage } from "@ionic/storage";
 import { NavController, NavParams, Events, AlertController } from 'ionic-angular';
 
-import { HomePage } from '../../pages/home/home';
 import { PickGamePage } from "../../pages/pick-game/pick-game";
 
 import { TimerComponent } from "../timer/timer";
@@ -13,7 +12,6 @@ import { Data } from '../../providers/data';
   templateUrl: 'trivia-card.html'
 })
 export class TriviaCardComponent {
-    homePage = HomePage;
     pickGamePage = PickGamePage;
 
     @ViewChild('slides') slides: any;
@@ -105,10 +103,11 @@ export class TriviaCardComponent {
         // Add to count if free player
         this.storage.get('plays').then((val) => {
             if (val === null) {
-                val = 1;
+                val = 4;
             } else {
-                val++;
+                val--;
             }
+            this.storage.set('plays', val);
         });
 
         // If time runs out, stop timer and slide to score slide
@@ -201,6 +200,6 @@ export class TriviaCardComponent {
 
     quit() {
         this.dataService.data = false;
-        this.navCtrl.push(HomePage);
+        this.navCtrl.push(PickGamePage);
     }
 }
