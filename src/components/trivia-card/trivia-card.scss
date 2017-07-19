@@ -28,7 +28,7 @@
             left: .5rem;
         }
         .high-score {
-            right: .5rem;
+            right: 3rem;
         }
         h1 {
             margin-top: 0;
@@ -45,9 +45,15 @@
         .slide-zoom {
             width: 90%;
         }
+        .quit, .question-count {
+            bottom: .5rem;
+        }
+        .question-count {
+            left: 1rem;
+            width: 12rem;
+        }
         .quit {
             right: 1rem;
-            bottom: .5rem;
         }
         .fab-ios, .fab-md {
             padding: 0;

@@ -43,8 +43,13 @@
     </div>
  
     <!-- Button for Practice Mode -->
-    <ion-fab class="quit" *ngIf="practiceMode">
-        <button ion-fab (click)="quit()"><strong>Quit</strong></button>
-    </ion-fab>
+    <div *ngIf="practiceMode">
+        <ion-fab class="question-count">
+            <button ion-fab><strong>{{currentQuestion}} of {{totalQuestions}}</strong></button>
+        </ion-fab>
+        <ion-fab class="quit">
+            <button ion-fab (click)="quit()"><strong>Quit</strong></button>
+        </ion-fab>        
+    </div>
 
 </ion-content>

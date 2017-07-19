@@ -31,7 +31,9 @@ export class TriviaCardComponent {
     highScore: number;
  
     questions: any;
-    slideCount: number;
+
+    totalQuestions: number;
+    currentQuestion: number = 1;
  
     constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: Data, public events: Events, private storage: Storage, private alertCtrl: AlertController) {}
 
@@ -39,7 +41,9 @@ export class TriviaCardComponent {
     ngOnInit() {
         this.slides.lockSwipes(true);
 
-        this.loadTrivia()
+        this.loadTrivia();
+
+        console.log(this.currentQuestion);
     }
 
     // Load and shuffle trivia questions and answers
@@ -91,12 +95,18 @@ export class TriviaCardComponent {
                 // Check if new high score and update
                 this.updateHighScore();
             }
+
+            if (!isLastSlide) {
+                this.currentQuestion++;
+            }
     }
 
     start(){
         this.slides.lockSwipes(false);
         this.nextSlide();
         this.slides.lockSwipes(true);
+
+        this.gameMode = true;
 
         this.events.publish('timer:start');
 
@@ -123,10 +133,12 @@ export class TriviaCardComponent {
     }
 
     practice() {
-        // Show Quit button
+        // Show Quit button and question count
         this.practiceMode = !this.practiceMode;
         // Hide score bar
         this.gameMode = !this.gameMode;
+
+        this.totalQuestions = this.slides.length() - 2;
 
         this.slides.lockSwipes(false);
         this.slides.slideNext();
@@ -196,6 +208,14 @@ export class TriviaCardComponent {
         this.slides.lockSwipes(true);
 
         this.score = 0;
+
+        if (this.practiceMode === true) {
+            this.practiceMode = false;
+            this.currentQuestion = 1;
+        }
+        if (!this.gameMode === false) {
+            this.gameMode = true;
+        }
     }
 
     quit() {

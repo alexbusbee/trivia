@@ -307,15 +307,6 @@
             ]
         },
         {
-            "question": "Nigeria",
-            "answers": [
-                {"answer": "Abuja", "correct": true, "selected": false},
-                {"answer": "Lagos", "correct": false, "selected": false},
-                {"answer": "Kano", "correct": false, "selected": false},
-                {"answer": "Ibadan", "correct": false, "selected": false}
-            ]
-        },
-        {
             "question": "Panama",
             "answers": [
                 {"answer": "Panama City", "correct": true, "selected": false},
