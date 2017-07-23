@@ -3,6 +3,7 @@ import { Storage } from "@ionic/storage";
 import { NavController, AlertController } from 'ionic-angular';
 
 import { PickGamePage } from '../pick-game/pick-game';
+import { SignUpPage } from "../sign-up/sign-up";
 
 @Component({
   selector: 'page-home',
@@ -10,6 +11,7 @@ import { PickGamePage } from '../pick-game/pick-game';
 })
 export class HomePage {
   pickGamePage = PickGamePage;
+  signUpPage = SignUpPage;
 
   val: number;
 
@@ -31,15 +33,15 @@ export class HomePage {
             message: 'Sign up for unlimited plays.',
             buttons: [
               {
-                text: 'No Thanks',
+                text: 'Continue',
                 handler: () => {
                   this.navCtrl.push(PickGamePage);
                 }
               },
               {
-                text: 'Sign Up',
+                text: 'Create Account',
                 handler: () => {
-                  // this.navCtrl.push(PickGamePage);
+                  this.navCtrl.push(SignUpPage);
                 }
               }
             ]
